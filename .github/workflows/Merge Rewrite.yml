@@ -25,7 +25,7 @@ jobs:
         download_files() {
           declare -A urls=(
             # ad 文件
-            ["MyRewrite.ad"]="https://raw.githubusercontent.com/Teacher-c/Qx/main/MyRewrite.conf"
+            ["MyRewrite.ad"]="https://raw.githubusercontent.com/git95279527/Qx/main/MyRewrite.conf"
             ["rewrite.ad"]="https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/rewrite.snippet"
             ["cleanup.ad"]="https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/cleanup.snippet"
 
