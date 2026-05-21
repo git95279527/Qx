@@ -1,0 +1,118 @@
+name: Merge Rules
+
+# 定义触发器，定期执行此工作流
+on:
+  schedule:
+    - cron: "0 0 * * 1"  # 每周一 00:00 UTC 执行
+  workflow_dispatch:     # 也允许手动触发
+
+jobs:
+  update-file:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 检出代码仓库
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    # 拉取远程文件
+    - name: Download conf files
+      run: |
+        declare -A files=(
+          #自定义
+          [Reject.txt]="https://raw.githubusercontent.com/Teacher-c/MosDNS/main/blocklist.txt"
+          [Direct.txt]="https://raw.githubusercontent.com/Teacher-c/MosDNS/main/whitelist.txt"
+          #QuantumultX
+          [Advertising.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/AdvertisingLite/AdvertisingLite.list"
+          [Apple.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Apple/Apple.list"
+          [ChinaMaxNoIP.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaMaxNoIP/ChinaMaxNoIP.list"
+          [AWAvenue-Ads-Rule-QuantumultX.list]="https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-QuantumultX.list"
+          #Shadowrocket
+          [S_AdvertisingLite.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/AdvertisingLite/AdvertisingLite.list"
+          [S_Advertising_Domain.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/AdvertisingLite/AdvertisingLite_Domain.list"
+          [S_Apple.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Apple/Apple.list"
+          [S_Apple_Domain.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Apple/Apple_Domain.list"
+          [S_ChinaMaxNoIP.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaMaxNoIP/ChinaMaxNoIP.list"
+          [S_ChinaMaxNoIP_Domain.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaMaxNoIP/ChinaMaxNoIP_Domain.list"
+          [AWAvenue-Ads-Rule-Shadowrocket.list]="https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Mosdns_v5.txt"
+          #Loon
+          [L_AdvertisingLite.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AdvertisingLite/AdvertisingLite.list"
+          [L_Advertising_Domain.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AdvertisingLite/AdvertisingLite_Domain.list"
+          [L_Apple.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Apple/Apple.list"
+          [L_Apple_Domain.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Apple/Apple_Domain.list"
+          [L_ChinaMaxNoIP.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMaxNoIP/ChinaMaxNoIP.list"
+          [L_ChinaMaxNoIP_Domain.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMaxNoIP/ChinaMaxNoIP_Domain.list"
+          [AWAvenue-Ads-Rule-Loon.list]="https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Mosdns_v5.txt"
+        )
+        set -e
+        for filename in "${!files[@]}"; do
+          curl -fsSL -o "$filename" "${files[$filename]}"
+          [ -s "$filename" ] || { echo "$filename download failed"; exit 1; }
+        done
+
+    # 修改并整理 QuantumultX 格式
+    - name: Process QuantumultX rules
+      run: |
+        cp -f Reject.txt MyReject.list
+        cp -f Direct.txt MyDirect.list
+        sed -i '/^#/d; s/^/HOST-SUFFIX,/; s/$/,REJECT/' MyReject.list
+        sed -i '/^#/d; s/^/HOST-SUFFIX,/; s/$/,DIRECT/' MyDirect.list
+        sed -i 's/,Apple/,DIRECT/g' Apple.list
+        sed -i 's/,ChinaMaxNoIP/,DIRECT/g' ChinaMaxNoIP.list
+        sed -i 's/,AdvertisingLite/,REJECT/g' Advertising.list
+        sed -i 's/,reject/,REJECT/g' AWAvenue-Ads-Rule-QuantumultX.list
+
+        cat MyDirect.list Apple.list ChinaMaxNoIP.list | sort -u > Direct.list
+        cat MyReject.list AWAvenue-Ads-Rule-QuantumultX.list Advertising.list | sort -u > Reject.list
+
+        mkdir -p ./rule/QuantumultX
+        mv -f Direct.list Reject.list ./rule/QuantumultX
+
+    # 修改并整理 Shadowrocket 格式
+    - name: Process Shadowrocket rules
+      run: |
+        cp -f Reject.txt S_MyReject.list
+        cp -f Direct.txt S_MyDirect.list
+
+        sed -i 's/^domain://g' AWAvenue-Ads-Rule-Shadowrocket.list
+        cat S_AdvertisingLite.list | sort -u > S_Reject_RuleSet.list
+        cat S_MyDirect.list S_Apple_Domain.list S_ChinaMaxNoIP_Domain.list | sort -u > S_Direct_Domain.list
+        cat S_Apple.list S_ChinaMaxNoIP.list | sort -u > S_Direct_RuleSet.list
+        cat S_MyReject.list AWAvenue-Ads-Rule-Shadowrocket.list S_Advertising_Domain.list | sort -u > S_Reject_Domain.list
+        sed -i '/tiktok/Id' S_Direct_RuleSet.list
+
+        mkdir -p ./rule/Shadowrocket
+        mv -f S_Direct_Domain.list S_Direct_RuleSet.list S_Reject_RuleSet.list S_Reject_Domain.list ./rule/Shadowrocket
+
+      # 修改并整理 Loon 格式
+    - name: Process Loon rules
+      run: |
+        cp -f Reject.txt L_MyReject.list
+        cp -f Direct.txt L_MyDirect.list
+
+        sed -i 's/^domain://g' AWAvenue-Ads-Rule-Loon.list
+        cat L_AdvertisingLite.list | sort -u > L_Reject_RuleSet.list
+        cat L_MyDirect.list L_Apple_Domain.list L_ChinaMaxNoIP_Domain.list | sort -u > L_Direct_Domain.list
+        cat L_Apple.list L_ChinaMaxNoIP.list | sort -u > L_Direct_RuleSet.list
+        cat L_MyReject.list AWAvenue-Ads-Rule-Loon.list L_Advertising_Domain.list | sort -u > L_Reject_Domain.list
+        sed -i '/tiktok/Id' L_Direct_RuleSet.list
+
+        mkdir -p ./rule/Loon
+        mv -f L_Direct_Domain.list L_Direct_RuleSet.list L_Reject_RuleSet.list L_Reject_Domain.list ./rule/Loon
+        
+    - name: Delete remark and blank comment
+      run: |
+        find ./rule/{Loon,Shadowrocket,QuantumultX} -type f -exec sed -i '/^\s*#/d;/^\s*$/d' {} +
+
+    # 提交修改并推送到仓库
+    - name: Commit and push changes
+      run: |
+        git config --local user.name "github-actions[bot]"
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git add ./rule
+        if git diff --cached --quiet; then
+          echo "No changes to commit"
+          exit 0
+        fi
+        git commit -m "Update file"
+        git push

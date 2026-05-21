@@ -1,0 +1,224 @@
+name: Merge Rewrite
+
+# 定义触发器，定期执行此工作流
+on:
+  schedule:
+    - cron: "0 0 * * 1"  # 每周一 00:00 UTC 执行
+  workflow_dispatch:     # 也允许手动触发
+
+jobs:
+  update-file:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 检出代码仓库
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    # 拉取远程文件并处理
+    - name: Download file and Modify file
+      run: |
+        set -e
+        current_dir=$(pwd)
+        mkdir -p "$current_dir/collect"
+
+        download_files() {
+          declare -A urls=(
+            # ad 文件
+            ["MyRewrite.ad"]="https://raw.githubusercontent.com/Teacher-c/Qx/main/MyRewrite.conf"
+            ["rewrite.ad"]="https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/rewrite.snippet"
+            ["cleanup.ad"]="https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/cleanup.snippet"
+
+            # JS 文件
+            ["collect/PornHubPremiumCrack.js"]="https://raw.githubusercontent.com/yqc007/QuantumultX/master/PornHubPremiumCrack.js"
+            #itune集合包括picsew
+            ["collect/itune.js"]="https://raw.githubusercontent.com/chxm1023/Rewrite/main/iTunes.js"
+            #wps稻壳
+            ["collect/WPSDocerVIPowerCrack.js"]="https://raw.githubusercontent.com/yqc007/QuantumultX/master/WPSDocerVIPowerCrack.js"
+            ["collect/WPSDocerVIPuserCrack.js"]="https://raw.githubusercontent.com/yqc007/QuantumultX/master/WPSDocerVIPuserCrack.js"
+            #bilibili
+            ["collect/BLBLHD.js"]="https://raw.githubusercontent.com/WeiGiegie/666/main/BLBLHD.js"
+            #微信读书
+            ["collect/wxds.js"]="https://raw.githubusercontent.com/WeiGiegie/666/main/wxds.js"
+            #百度网盘
+            ["collect/panda.js"]="https://raw.githubusercontent.com/WeiGiegie/666/main/panda.js"
+            #芒果TV
+            ["collect/mgtv.js"]="https://raw.githubusercontent.com/WeiGiegie/666/main/mgtv.js"
+            #知乎
+            ["collect/zhihu.js"]="https://raw.githubusercontent.com/WeiGiegie/666/main/zhihu.js"
+            ["collect/zhihutk.js"]="https://raw.githubusercontent.com/WeiGiegie/666/main/zhihutk.js"
+            ["collect/zhtk.js"]="https://raw.githubusercontent.com/WeiGiegie/666/main/zhtk.js"
+            #迅雷
+            ["collect/xunlei.js"]="https://raw.githubusercontent.com/WeiGiegie/666/main/xunlei.js"
+            #咪咕视频
+            ["collect/mgsp.js"]="https://raw.githubusercontent.com//WeiGiegie/666/main/mgsp.js"
+            #咪咕音乐
+            ["collect/miguyinyue.js"]="https://raw.githubusercontent.com/WeiGiegie/666/main/miguyinyue.js"
+            #水印相机
+            ["collect/jrsypzxj.js"]="https://raw.githubusercontent.com/WeiGiegie/666/main/jrsypzxj.js"
+            #网易云音乐
+            ["collect/wangyiyun.js"]="https://raw.githubusercontent.com/WeiGiegie/666/main/wangyiyun.js"
+            #樊登读书
+            ["collect/fdds.js"]="https://raw.githubusercontent.com/WeiGiegie/666/main/fdds.js"
+            #喜马拉雅
+            ["collect/ximalaya.js"]="https://raw.githubusercontent.com/WeiGiegie/666/main/ximalaya.js"
+            #wps
+            ["collect/WPS.js"]="https://raw.githubusercontent.com/chxm1023/Rewrite/main/WPS.js"
+            #白描
+            ["collect/baimiao.js"]="https://raw.githubusercontent.com/chxm1023/Rewrite/main/baimiao.js"
+            #阿里云盘
+            ["collect/alidrive.js"]="https://raw.githubusercontent.com/chxm1023/Rewrite/main/alidrive.js"
+            #美图秀秀
+            ["collect/mtxx.js"]="https://raw.githubusercontent.com/chxm1023/Rewrite/main/mtxx.js"
+            #扫描全能王
+            ["collect/CamScanner.js"]="https://raw.githubusercontent.com/chxm1023/Rewrite/main/CamScanner.js"
+            #xmind
+            ["collect/Xmind.js"]="https://raw.githubusercontent.com/chxm1023/Rewrite/main/Xmind.js"
+            #百度网盘，一刻相册
+            ["collect/bdcloud.js"]="https://raw.githubusercontent.com/chxm1023/Rewrite/main/bdcloud.js"
+            #傲软抠图，傲软扫描，傲软PDF转换，傲软PDF编辑，傲软投屏，咖映，轻闪PDF，乃糖小组件，佐糖，佐糖照片修复
+            ["collect/arqjt.js"]="https://raw.githubusercontent.com/chxm1023/Rewrite/main/arqjt.js"
+            #爱剪辑
+            ["collect/ajj.js"]="https://raw.githubusercontent.com/chxm1023/Rewrite/main/ajj.js"
+            #AdGuard
+            #["collect/AdGuard.js"]="https://raw.githubusercontent.com/chxm1023/Rewrite/main/AdGuard.js"
+            #彩云天气
+            ["collect/caiyuntianqi.js"]="https://raw.githubusercontent.com/chxm1023/Rewrite/main/caiyuntianqi.js"
+            #美颜相机
+            ["collect/myxj.js"]="https://raw.githubusercontent.com/chxm1023/Rewrite/main/myxj.js"
+            #地震预警
+            ["collect/dzyj.js"]="https://raw.githubusercontent.com/chxm1023/Rewrite/main/dzyj.js"
+            #小组件盒子
+            ["collect/xzjhz.js"]="https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/xzjhz.js"
+            #今日水印相机
+            ["collect/JRSYXJ.js"]="https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/JRSYXJ.js"
+            #轻颜相机
+            ["collect/qyxj.js"]="https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/qyxj.js"
+            #Lightroom
+            ["collect/lightroom.js"]="https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/lightroom.js"
+            #波点音乐
+            ["collect/bdyy.js"]="https://raw.githubusercontent.com/WeiGiegie/666/main/bdyy.js"
+            #酷我音乐
+            ["collect/kuwo.js"]="https://raw.githubusercontent.com/WeiGiegie/666/main/kuwo.js"
+          )
+          for file in "${!urls[@]}"; do
+            echo "Downloading $file..."
+            curl -fsSL -o "$current_dir/$file" "${urls[$file]}" || echo "❌ Failed: $file"
+            [ -s "$current_dir/$file" ] || { echo "Download failed: $file"; exit 1; }
+          done
+        }
+
+        process_js_dir() {
+          local dir="$1"
+          local outfile="$2"
+          local enable_delete="$3"
+
+          > "$outfile"
+          cd "$dir" || exit 1
+          shopt -s nullglob
+          for file in *.js; do
+            if [[ "$enable_delete" == "1" ]] && grep -q 'buy.itunes.apple.com' "$file"; then
+              echo "# [删除] $file 中包含 buy.itunes.apple.com，已删除" >> "$outfile"
+              rm -f "$file"
+              continue
+            fi
+            
+            echo "# $file 从第1行到 [rewrite_local] 前一行：" >> "$outfile"
+    
+            # 提取从第1行到 [rewrite_local] 前一行
+            if grep -q "\[rewrite_local\]" "$file"; then
+              line_num=$(grep -n "\[rewrite_local\]" "$file" | head -n1 | cut -d: -f1)
+              head -n $((line_num - 1)) "$file" | sed 's/^/# /' >> "$outfile"
+            else
+              echo "# [跳过] 未检测到 [rewrite_local]" >> "$outfile"
+            fi
+
+            echo -e "\n# ${file} 中的 [rewrite_local] 到 hostname:" >> "$outfile"
+            if grep -q "\[rewrite_local\]" "$file" && grep -q "hostname" "$file"; then
+              awk '/\[rewrite_local\]/, /hostname/' "$file" >> "$outfile"
+            else
+              echo "# [跳过] 未检测到 rewrite_local 或 hostname" >> "$outfile"
+            fi
+            echo "" >> "$outfile"
+          done
+          mv "$outfile" "$current_dir/$(basename "$outfile" .txt).js"
+          cd "$current_dir" || exit 1
+        }
+
+
+        merge_hostname() {
+          local file="$1"
+          local tmp="$(mktemp)"
+          local hostnames=$(grep -E '^\s*hostname\s*=' "$file" | sed -E 's/^\s*hostname\s*=\s*//' | tr -d ' ' | sort -u | paste -sd, -)
+
+          sed -E 's/^\s*(hostname\s*=)/# \1/' "$file" > "$tmp"
+          echo -e "\nhostname = $hostnames" >> "$tmp"
+          mv "$tmp" "$file"
+          sed -i '/rewrite_local\|mitm/I s/^/#/' "$file"
+        }
+
+        merge_ad_files() {
+          local pattern="$1"
+          local outfile="$2"
+          > tmp
+          cat $pattern > tmp
+          mv tmp "$outfile"
+          sed -i '/^\s*#.*hostname.*/d' "$outfile"
+        
+          local merged=$(grep -oP 'hostname\s*=?\s*\K.*' "$outfile" | tr ',' '\n' | sed 's/^\s*//;s/\s*$//' | awk '!seen[$0]++' | paste -sd, -)
+          awk -v merged="$merged" 'BEGIN{p=0} /^[[:space:]]*hostname[[:space:]]*=/ { if (!p++) print "hostname=" merged; next } { print }' "$outfile" > tmp && mv tmp "$outfile"
+        }
+
+        # 下载部分
+        download_files
+
+        # 克隆并处理仓库
+        git clone --branch main --single-branch https://github.com/chxm1023/Rewrite.git chxm1023
+        git clone --branch main --single-branch https://github.com/WeiGiegie/666.git WeiGiegie
+        git clone --branch main --single-branch https://github.com/89996462/Quantumult-X.git 89996462
+        git clone --branch master --single-branch https://github.com/yqc007/QuantumultX.git yqc007
+
+        cd ./chxm1023
+        rm -rf Dualsub.js embycrack.js
+        find . -type f -name "*.js" -exec sed -i 's/chxm102 3/chxm1023/g' {} +
+        find . -type f -exec sed -i 's|chxm1023/script/main/Rewrite|chxm1023/Rewrite/main|g' {} +
+        cd "$current_dir"
+
+        process_js_dir "$current_dir/chxm1023" merged_chxm1023.txt 1
+        merge_hostname merged_chxm1023.js
+
+        process_js_dir "$current_dir/WeiGiegie" merged_WeiGiegie.txt 1
+        merge_hostname merged_WeiGiegie.js
+
+        process_js_dir "$current_dir/89996462/ycdz" merged_89996462.txt 1
+        merge_hostname merged_89996462.js
+
+        process_js_dir "$current_dir/yqc007" merged_yqc007.txt 1
+        merge_hostname merged_yqc007.js
+
+        process_js_dir "$current_dir/collect" merged_collect.txt 0
+        merge_hostname merged_collect.js
+        
+        # 合并 ad 文件
+        merge_ad_files "*.ad" merged_ad.js
+
+        #删除注释空白行
+        sed -i '/^#/d; /^\s*$/d' merged_ad.js
+        sed -i '/^#/d; /^\s*$/d' merged_collect.js
+        
+        mkdir -p ./rewrite
+        mv -f merged_*.js ./rewrite
+
+        
+    # 提交修改并推送到仓库
+    - name: Commit and push changes
+      run: |
+        git config --local user.name "github-actions[bot]"
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git add ./rewrite
+        if git diff --cached --quiet; then
+          echo "No changes to commit"
+          exit 0
+        fi
+        git commit -m "Update file"
+        git push
