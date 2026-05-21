@@ -20,8 +20,8 @@ jobs:
       run: |
         declare -A files=(
           #自定义
-          [Reject.txt]="https://raw.githubusercontent.com/Teacher-c/MosDNS/main/blocklist.txt"
-          [Direct.txt]="https://raw.githubusercontent.com/Teacher-c/MosDNS/main/whitelist.txt"
+          [Reject.txt]="https://raw.githubusercontent.com/git95279527/MosDNS/main/blocklist.txt"
+          [Direct.txt]="https://raw.githubusercontent.com/git95279527/MosDNS/main/whitelist.txt"
           #QuantumultX
           [Advertising.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/AdvertisingLite/AdvertisingLite.list"
           [Apple.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Apple/Apple.list"
