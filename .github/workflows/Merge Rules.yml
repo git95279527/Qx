@@ -34,7 +34,7 @@ jobs:
           [S_Apple_Domain.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Apple/Apple_Domain.list"
           [S_ChinaMaxNoIP.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaMaxNoIP/ChinaMaxNoIP.list"
           [S_ChinaMaxNoIP_Domain.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaMaxNoIP/ChinaMaxNoIP_Domain.list"
-          [AWAvenue-Ads-Rule-Shadowrocket.list]="https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Mosdns_v5.txt"
+          [AWAvenue-Ads-Rule-Shadowrocket.list]="https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Geosite.txt"
           #Loon
           [L_AdvertisingLite.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AdvertisingLite/AdvertisingLite.list"
           [L_Advertising_Domain.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AdvertisingLite/AdvertisingLite_Domain.list"
@@ -42,7 +42,7 @@ jobs:
           [L_Apple_Domain.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Apple/Apple_Domain.list"
           [L_ChinaMaxNoIP.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMaxNoIP/ChinaMaxNoIP.list"
           [L_ChinaMaxNoIP_Domain.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMaxNoIP/ChinaMaxNoIP_Domain.list"
-          [AWAvenue-Ads-Rule-Loon.list]="https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Mosdns_v5.txt"
+          [AWAvenue-Ads-Rule-Loon.list]="https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Geosite.txt"
         )
         set -e
         for filename in "${!files[@]}"; do
@@ -74,7 +74,7 @@ jobs:
         cp -f Reject.txt S_MyReject.list
         cp -f Direct.txt S_MyDirect.list
 
-        sed -i 's/^domain://g' AWAvenue-Ads-Rule-Shadowrocket.list
+        sed -i '/^[!#]/d; /^\s*$/d; s/full://g' AWAvenue-Ads-Rule-Shadowrocket.list
         cat S_AdvertisingLite.list | sort -u > S_Reject_RuleSet.list
         cat S_MyDirect.list S_Apple_Domain.list S_ChinaMaxNoIP_Domain.list | sort -u > S_Direct_Domain.list
         cat S_Apple.list S_ChinaMaxNoIP.list | sort -u > S_Direct_RuleSet.list
@@ -90,7 +90,7 @@ jobs:
         cp -f Reject.txt L_MyReject.list
         cp -f Direct.txt L_MyDirect.list
 
-        sed -i 's/^domain://g' AWAvenue-Ads-Rule-Loon.list
+        sed -i '/^[!#]/d; /^\s*$/d; s/full://g' AWAvenue-Ads-Rule-Loon.list
         cat L_AdvertisingLite.list | sort -u > L_Reject_RuleSet.list
         cat L_MyDirect.list L_Apple_Domain.list L_ChinaMaxNoIP_Domain.list | sort -u > L_Direct_Domain.list
         cat L_Apple.list L_ChinaMaxNoIP.list | sort -u > L_Direct_RuleSet.list
