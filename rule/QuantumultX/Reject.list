@@ -114,6 +114,7 @@ DOMAIN,adsfile.qq.com,REJECT
 DOMAIN,adsfilebssdlbig.ali.kugou.com,REJECT
 DOMAIN,adsfileretry.service.kugou.com,REJECT
 DOMAIN,adsfs-sdkconfig.heytapimage.com,REJECT
+DOMAIN,adsfs.heytapimage.com,REJECT
 DOMAIN,adsfs.oppomobile.com,REJECT
 DOMAIN,adslvfile.qq.com,REJECT
 DOMAIN,adsmart.konka.com,REJECT
@@ -332,7 +333,6 @@ DOMAIN,domain.aishengji.com,REJECT
 DOMAIN,doubleclick-cn.net,REJECT
 DOMAIN,download.changhong.upgrade2.huan.tv,REJECT
 DOMAIN,downloadxml.changhong.upgrade2.huan.tv,REJECT
-DOMAIN,drcn-weather.cloud.huawei.com,REJECT
 DOMAIN,dsp-x.jd.com,REJECT
 DOMAIN,dsp.fcbox.com,REJECT
 DOMAIN,dualstack-logs.amap.com,REJECT
