@@ -277,6 +277,28 @@
 #[mitm]
 # hostname = api.getdailyart.com
 
+## DayOne.js 从第1行到 [rewrite_local] 前一行：
+# /*************************************
+# 
+# 应用名称：DayOne:每日日记和日记
+# 脚本功能：解锁Gold
+# 下载地址：https://is.gd/V1nRKk
+# 更新日期：2026-05-14
+# 脚本作者：@ddm1023
+# 电报频道：https://t.me/ddm1023
+# 使用声明：⚠️仅供参考，🈲转载与售卖！
+# 
+# **************************************
+# 
+
+## DayOne.js 中的 [rewrite_local] 到 hostname:
+#[rewrite_local]
+^https:\/\/dayone\.app\/api\/v\d\/users url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/DayOne.js
+^https?:\/\/enrichment-api\.superwall\.com\/api\/v\d\/enrich url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/DayOne.js
+
+#[mitm]
+# hostname = dayone.app, enrichment-api.superwall.com
+
 ## DeepFaker.js 从第1行到 [rewrite_local] 前一行：
 # /*************************************
 # 
@@ -889,12 +911,33 @@ https?:\/\/zy6kcqa01a\.execute-api\.us-east-2\.amazonaws\.com\/prod\/verifyRecei
 #[mitm]
 # hostname = d1hzbu30hrhkoe.cloudfront.net
 
+## RawPix.js 从第1行到 [rewrite_local] 前一行：
+# /*************************************
+# 
+# 应用名称：RawPix-DIY壁纸
+# 脚本功能：解锁VIP
+# 下载地址：https://is.gd/Sx6SmN
+# 更新日期：2026-05-02
+# 脚本作者：@ddm1023
+# 电报频道：https://t.me/ddm1023
+# 使用声明：⚠️仅供参考，🈲转载与售卖！
+# 
+# **************************************
+# 
+
+## RawPix.js 中的 [rewrite_local] 到 hostname:
+#[rewrite_local]
+^https?:\/\/api\.rawpixlive\.com\/api\/(sign\/profile|picture\/checkout|config\/config) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/RawPix.js
+
+#[mitm]
+# hostname = api.rawpixlive.com
+
 # [删除] ReLens.js 中包含 buy.itunes.apple.com，已删除
 ## Reheji.js 从第1行到 [rewrite_local] 前一行：
 # /*************************************
 # 
 # 项目名称：Revenuecat系列解锁合集
-# 更新日期：2026-04-08
+# 更新日期：2026-05-25
 # 脚本作者：@ddm1023
 # 电报频道：https://t.me/ddm1023
 # 使用声明：⚠️仅供参考，🈲转载与售卖！
@@ -1510,10 +1553,9 @@ https?:\/\/api\.intelimeditor\.com\/user\/loginByThirdPlatformApp url script-res
 ## bdcloud.js 从第1行到 [rewrite_local] 前一行：
 # /*************************************
 # 
-# 项目名称：百度网盘，一刻相册 解锁部分功能
+# 项目名称：百度网盘
 # 下载地址：https://t.cn/AiT82mfg
-# 下载地址：https://t.cn/Ainbj7GV
-# 更新日期：2025-01-09
+# 更新日期：2026-05-10
 # 脚本作者：@ddm1023
 # 电报频道：https://t.me/ddm1023
 # 使用声明：⚠️仅供参考，🈲转载与售卖！
@@ -1523,7 +1565,7 @@ https?:\/\/api\.intelimeditor\.com\/user\/loginByThirdPlatformApp url script-res
 
 ## bdcloud.js 中的 [rewrite_local] 到 hostname:
 #[rewrite_local]
-^https?:\/\/pan\.baidu\.com\/(youai\/(user\/.+\/getminfo|membership\/.+\/adswitch)|(rest\/.+\/membership\/user|act\/.+\/(bchannel|welfare)\/list|api\/usercfg)) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/bdcloud.js
+^https?:\/\/pan\.baidu\.com\/(act\/.+\/(activityentry|bchannel|cardwelfare|skin)|rest\/.+\/(membership\/user|pcs\/adv)|feed\/cardinfos|api\/(user\/getinfo|quota|loginstatus|account\/getprivilege)|buy\/ad\/conf|wap\/vip|coins\/taskcenter\/homensr) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/bdcloud.js
 
 #[mitm]
 # hostname = pan.baidu.com
@@ -3246,6 +3288,23 @@ https?:\/\/www\.luqijianggushi\.com\/api url script-response-body https://raw.gi
 #[mitm]
 # hostname = asia.gikken.co
 
+## meirikaisang.js 从第1行到 [rewrite_local] 前一行：
+# /*************************************
+# 
+# 应用名称：每日开嗓
+# 脚本功能：解锁练习单元
+# 下载地址：https://is.gd/nemzKD
+# 更新日期：2026-04-26
+# 脚本作者：@ddm1023
+# 电报频道：https://t.me/ddm1023
+# 使用声明：⚠️仅供参考，🈲转载与售卖！
+# 
+# **************************************
+# 
+
+## meirikaisang.js 中的 [rewrite_local] 到 hostname:
+## [跳过] 未检测到 rewrite_local 或 hostname
+
 ## mgbd.js 从第1行到 [rewrite_local] 前一行：
 # /*************************************
 # 
@@ -4908,6 +4967,26 @@ http:\/\/wallpaper\.jingqueyun\.com\/\/index\.php\/\/(user\/getUserInfo|download
 
 # hostname = xianbeikeji.com
 
+## xzimu.js 从第1行到 [rewrite_local] 前一行：
+# /*************************************
+# 
+# 应用名称：X字幕
+# 下载地址：https://is.gd/50cZFy
+# 更新日期：2026-04-21
+# 脚本作者：@ddm1023
+# 电报频道：https://t.me/ddm1023
+# 使用声明：⚠️仅供参考，🈲转载与售卖！
+# 
+# **************************************
+# 
+
+## xzimu.js 中的 [rewrite_local] 到 hostname:
+#[rewrite_local]
+http:\/\/apps\.tltgame\.com\/api\/user\/(updateStatus|randomRegister) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/xzimu.js
+
+#[mitm]
+# hostname = apps.tltgame.com
+
 ## xzjhz.js 从第1行到 [rewrite_local] 前一行：
 # /*************************************
 # 
@@ -5631,4 +5710,4 @@ http:\/\/.*\.dicallapp\.com url script-response-body https://raw.githubuserconte
 # hostname = www.fuyoutech.club
 
 
-hostname = *-api.notedapp.io,*-slidebox-ios-prod.cloudfunctions.net,*.airdroid.cn,*.aliyundrive.com,*.alipan.com,*.aoscdn.com,*.aoscdn.com,*.apsapp.cn,*.apphud.com,*.camera360.com,*.camscanner.com,*.intsig.net,*.cloudfront.net,ftmailbox.cn,*.cloudfunctions.net,*.appsflyersdk.com,*.cyapi.cn,*.cyapi.cn,*.caiyunapp.com,*.dicallapp.com,*.duitang.com,*.execute-api.ap-northeast-2.amazonaws.com,*.grammarly.com,*.guwendao.net,*.hunliji.com,*.ihuaben.com,*.imendon.com,*.jiemengjia.com,*.julanling.com,*.kuaidi100.com,*.kuwo.cn,*.kwcdn.kuwo.cn,*.lrts.me,*.lanjiyin.com.cn,*.linearity.io,*.lingvist.com,*.meiyan.com,*.oracle.bendingspoonsapps.com,*.qingning6.com,*.radio.cn,60.205.171.165,*.rhinox*.com,appss.linhongshi.com,*.snow.me,*.soutushenqi.com,*.uaa*.com,*.videoshowiosglobalserver.com,*.enjoy-mobi.com,*.vlognow.me,*.whalean.com,*.xiangha.com,*.xiuxiu.meitu.com,api.posters.meitu.com,api-sub.meitu.com,*.yangjibao.com,*.zhuishushenqi.com,*.pangolin-sdk-toutiao*.com,mhjk.1391.com,opencloud.wostore.cn,open.e.kuaishou.com,mi.gdt.qq.com,mobads.baidu.com,ios.bugly.qq.com,sdk.e.qq.com,analytics.oceanengine.com,*api.quthing.com,*xmind.*,1jietu.com,accounts.agenda.com,api-*.facereplacerext.com,api-*.meitu.com,api-qsy.iiitool.com,api-search.hulusaas.com,api-v2.xdclass.net,api-v3.speedtest.cn,api-wood.kaying.cc,api.*lianqin*.*,api.mangofuture.cn,api.adapty.io,api.alar.my,api.apphud.com,api.bluepulse.cn,api.boohee.com,api.changecollective.com,api.chentuanbazi.cn,api.chuangqi.store,api.craft.do,api.deepfaker.app,api.diancigaoshou.com,api.douchacha.com,api.everyday.app,api.expingworld.com,api.getdailyart.com,api.hechuangxinxi.xyz,api.hujuvod.com,api.qwapp.top,api.intelimeditor.com,api.ivrfun.com,api.iyf.tv,api.jitizhong.com,api.mattingm.com,api.meiease.cn,api.moises.ai,api.mojidict.com,api.open.loveclip.site,api.pixcakeai.com,api.polaxiong.com,api.qiyou.cn,api.qonversion.io,api.revenuecat.com,api.revenuecat.com,api.rc-backup.com,api.revenuecat.com,app-measurement.com,firebaseremoteconfig.googleapis.com,api.risingfalling.com,api.shuaika.com,api.timetreeapp.com,api.trancy.org,api.tuzhitong.com,api.weilaizhushou.com,api.wlingua.io,api.yonekura.cn,api.zihuaai.com,api2.vlognow.me,apimboom2.globaldelight.net,apiv2.somuseai.com,apiv2.xiaobeiyangji.com,app.kqwl.site,app.txcfgl.com,app.yidiansz.com,app.yiyan.art,app.yjai.art,apps-api.lianaishouce.cn,apps-api.lingege.cn,appv2.filmix.com.cn,asia.gikken.co,backend.getdrafts.com,baimiao.uzero.cn,bd-api.kuwo.cn,bellybook-app-api.bellybook.cn,billing-ios.wallpaperscraft.com,biz.caiyunapp.com,book.wetapapp.com,boringday.api.neuronlabs.art,bzpp3.iwzbz.com,calc.kuaicad.com,calendarsrv.iwzwh.com,cc.lzjoy.com,cdn-bm.camera360.com,chongrichang-api-new.eveningperson.com,closet.jinjian.tech,cn.czur.cc,creaceed.com,cs.kuso.xyz,cubox.*,d1hzbu30hrhkoe.cloudfront.net,dashen*.shuiyinyu.com,day-api.xixitime.com,diary-id.sumi.io,dj.palmestore.com,drive*.quark.cn,explorer.tratao.com,fast.lmfasting.cn,film-api.startupfun.vip,filmicpro.oracle.bendingspoonsapps.com,fimo.appfimo.com,firstclass.tripsy.app,format-api.netpock.com,ggs.manmeng168.com,guapi.liangjihui.com,ljh.dianxiaoman.com,gzfanyin.com,i.at.qq.com,iap.etm.tech,ifttt.com,iosapi.peiyinxiu.com,iosapi.yueshuian.com,question.tiku.cqxcj.top,base.cmoe.top,yyapi.yayingtk.com,learn.cqrry.com,api.sryx.net,api.meigit.com,question.api.anjiazui.com,app.bftk.com.cn,question.civil.shaoeyy.com,iosdzhtyqy.sanwubeixin.cn,iosv2.cjapi.5fun.com,jz.jarstones.com,jz.wacaijizhang.com,kkr-user.tapque.com,koan.bopulab.cn,kongque.twan.cn,laipicapp.laihua.com,lcs-mobile-cops.adobe.io,leancloud.emotionwp.com,lentoapp.com,lepai-api.faceqianyan.com,license.pdfexpert.com,liujia95.xyz,luyintu.cushuikeji.cn,m.815616.xyz,masterwaynote.com,meitu.minecaller.com,mobile-api.adguard.org,mobile-new.chinaeew.cn,mobileapp.wuyamusic.com,moyin-gateway.moyin.com,my.getslopes.com,new.xslm333.xyz,nicegram.cloud,restore-access.indream.app,api.mbrx.app,notability.com,novel.test.onedayapp.cn,open3.vistastory.com,otter-api.codefuture.top,ouyangxunshufa.azurewebsites.net,p.du.163.com,pan.baidu.com,pgapi.photogrid.app,play.wo1wan.com,pool.elsanow.io,prod.dengziwl.com,purchase-*-api.*.com,user-kaji-api.b612kaji.com,purchase-qingtu-api.b612kaji.com,purchase-soda-api.snow.me,qdq.9sm.net,qianji.xxoojoke.com,rc.visionarytech.ltd,receipt-verifier.cdwapi.com,scanner.jianse.tv,schedule-api.julanling.com,scibug.com,screen-lock.*.com,sdk.xiangyubizhi.com,xiangyubizhi.com,service.ilovepdf.com,service.perfect365.com,share.dianshihome.com,api.gaoqingdianshi.com,snailsleep.net,social-api-public.lemurbrowser.com,ssl-api.itranslateapp.com,subscription-api.lyrebirdstudio.net,tailor.tomax.xyz,tcb-api.tencentcloudapi.com,tide-api.moreless.io,translator.felo.me,viart-api.afunapp.com,w.5hzs.com,wallpaper.jingqueyun.com,water*.yunxiaoguo.cn,widget-box-api.codefuture.top,www.119xkb.com,www.40sishi.com,www.dbbqb.com,www.ecigrxy.cn,www.freshhome.top,www.fuyoutech.club,www.huojiwangluo.cn,www.kaolahome.com,cat-revenuecat-qscqkotbrh.cn-hongkong.fcapp.run,www.kkmop.com,www.luqijianggushi.com,www.luyaolab.cn,www.skyjos.cn,www.xfx119.com,www.xiaomaigongkao.com,www.yiyujizhang.cn,www.yunshangxiezuo.com,www.zhouyilive.com,www2.tigeroom.com,xianbeikeji.com,xremit.xcurrency.com,explorer.tratao.com,yeguo.236api.com,yimuapp.com,yimutodo.com,youxifanyizhushou.com,zwpp.wzbz123.com, *.api.moji.com, *.kakamobi.cn, *.wps.cn, api-production.endel.io, api.995120.cn, api.hummingbird.businessreview.global, api.shuashuati.com, bzpp2.iwzbz.com, calendar.aiyohoo.com, firstclass.tripsy.app, focos.oracle.bendingspoonsapps.com, integral2.*.com, kc.xinli001.com, splice.oracle.bendingspoonsapps.com, twios.styleart.cn, www.1314zhilv.com, yopu.co, zy6kcqa01a.execute-api.us-east-2.amazonaws.com
+hostname = *-api.notedapp.io,*-slidebox-ios-prod.cloudfunctions.net,*.airdroid.cn,*.aliyundrive.com,*.alipan.com,*.aoscdn.com,*.aoscdn.com,*.apsapp.cn,*.apphud.com,*.camera360.com,*.camscanner.com,*.intsig.net,*.cloudfront.net,ftmailbox.cn,*.cloudfunctions.net,*.appsflyersdk.com,*.cyapi.cn,*.cyapi.cn,*.caiyunapp.com,*.dicallapp.com,*.duitang.com,*.execute-api.ap-northeast-2.amazonaws.com,*.grammarly.com,*.guwendao.net,*.hunliji.com,*.ihuaben.com,*.imendon.com,*.jiemengjia.com,*.julanling.com,*.kuaidi100.com,*.kuwo.cn,*.kwcdn.kuwo.cn,*.lrts.me,*.lanjiyin.com.cn,*.linearity.io,*.lingvist.com,*.meiyan.com,*.oracle.bendingspoonsapps.com,*.qingning6.com,*.radio.cn,60.205.171.165,*.rhinox*.com,appss.linhongshi.com,*.snow.me,*.soutushenqi.com,*.uaa*.com,*.videoshowiosglobalserver.com,*.enjoy-mobi.com,*.vlognow.me,*.whalean.com,*.xiangha.com,*.xiuxiu.meitu.com,api.posters.meitu.com,api-sub.meitu.com,*.yangjibao.com,*.zhuishushenqi.com,*.pangolin-sdk-toutiao*.com,mhjk.1391.com,opencloud.wostore.cn,open.e.kuaishou.com,mi.gdt.qq.com,mobads.baidu.com,ios.bugly.qq.com,sdk.e.qq.com,analytics.oceanengine.com,*api.quthing.com,*xmind.*,1jietu.com,accounts.agenda.com,api-*.facereplacerext.com,api-*.meitu.com,api-qsy.iiitool.com,api-search.hulusaas.com,api-v2.xdclass.net,api-v3.speedtest.cn,api-wood.kaying.cc,api.*lianqin*.*,api.mangofuture.cn,api.adapty.io,api.alar.my,api.apphud.com,api.bluepulse.cn,api.boohee.com,api.changecollective.com,api.chentuanbazi.cn,api.chuangqi.store,api.craft.do,api.deepfaker.app,api.diancigaoshou.com,api.douchacha.com,api.everyday.app,api.expingworld.com,api.getdailyart.com,api.hechuangxinxi.xyz,api.hujuvod.com,api.qwapp.top,api.intelimeditor.com,api.ivrfun.com,api.iyf.tv,api.jitizhong.com,api.mattingm.com,api.meiease.cn,api.moises.ai,api.mojidict.com,api.open.loveclip.site,api.pixcakeai.com,api.polaxiong.com,api.qiyou.cn,api.qonversion.io,api.rawpixlive.com,api.revenuecat.com,api.revenuecat.com,api.rc-backup.com,api.revenuecat.com,app-measurement.com,firebaseremoteconfig.googleapis.com,api.risingfalling.com,api.shuaika.com,api.timetreeapp.com,api.trancy.org,api.tuzhitong.com,api.weilaizhushou.com,api.wlingua.io,api.yonekura.cn,api.zihuaai.com,api2.vlognow.me,apimboom2.globaldelight.net,apiv2.somuseai.com,apiv2.xiaobeiyangji.com,app.kqwl.site,app.txcfgl.com,app.yidiansz.com,app.yiyan.art,app.yjai.art,apps-api.lianaishouce.cn,apps-api.lingege.cn,apps.tltgame.com,appv2.filmix.com.cn,asia.gikken.co,backend.getdrafts.com,baimiao.uzero.cn,bd-api.kuwo.cn,bellybook-app-api.bellybook.cn,billing-ios.wallpaperscraft.com,biz.caiyunapp.com,book.wetapapp.com,boringday.api.neuronlabs.art,bzpp3.iwzbz.com,calc.kuaicad.com,calendarsrv.iwzwh.com,cc.lzjoy.com,cdn-bm.camera360.com,chongrichang-api-new.eveningperson.com,closet.jinjian.tech,cn.czur.cc,creaceed.com,cs.kuso.xyz,cubox.*,d1hzbu30hrhkoe.cloudfront.net,dashen*.shuiyinyu.com,day-api.xixitime.com,dayone.app,enrichment-api.superwall.com,diary-id.sumi.io,dj.palmestore.com,drive*.quark.cn,explorer.tratao.com,fast.lmfasting.cn,film-api.startupfun.vip,filmicpro.oracle.bendingspoonsapps.com,fimo.appfimo.com,firstclass.tripsy.app,format-api.netpock.com,ggs.manmeng168.com,guapi.liangjihui.com,ljh.dianxiaoman.com,gzfanyin.com,i.at.qq.com,iap.etm.tech,ifttt.com,iosapi.peiyinxiu.com,iosapi.yueshuian.com,question.tiku.cqxcj.top,base.cmoe.top,yyapi.yayingtk.com,learn.cqrry.com,api.sryx.net,api.meigit.com,question.api.anjiazui.com,app.bftk.com.cn,question.civil.shaoeyy.com,iosdzhtyqy.sanwubeixin.cn,iosv2.cjapi.5fun.com,jz.jarstones.com,jz.wacaijizhang.com,kkr-user.tapque.com,koan.bopulab.cn,kongque.twan.cn,laipicapp.laihua.com,lcs-mobile-cops.adobe.io,leancloud.emotionwp.com,lentoapp.com,lepai-api.faceqianyan.com,license.pdfexpert.com,liujia95.xyz,luyintu.cushuikeji.cn,m.815616.xyz,masterwaynote.com,meitu.minecaller.com,mobile-api.adguard.org,mobile-new.chinaeew.cn,mobileapp.wuyamusic.com,moyin-gateway.moyin.com,my.getslopes.com,new.xslm333.xyz,nicegram.cloud,restore-access.indream.app,api.mbrx.app,notability.com,novel.test.onedayapp.cn,open3.vistastory.com,otter-api.codefuture.top,ouyangxunshufa.azurewebsites.net,p.du.163.com,pan.baidu.com,pgapi.photogrid.app,play.wo1wan.com,pool.elsanow.io,prod.dengziwl.com,purchase-*-api.*.com,user-kaji-api.b612kaji.com,purchase-qingtu-api.b612kaji.com,purchase-soda-api.snow.me,qdq.9sm.net,qianji.xxoojoke.com,rc.visionarytech.ltd,receipt-verifier.cdwapi.com,scanner.jianse.tv,schedule-api.julanling.com,scibug.com,screen-lock.*.com,sdk.xiangyubizhi.com,xiangyubizhi.com,service.ilovepdf.com,service.perfect365.com,share.dianshihome.com,api.gaoqingdianshi.com,snailsleep.net,social-api-public.lemurbrowser.com,ssl-api.itranslateapp.com,subscription-api.lyrebirdstudio.net,tailor.tomax.xyz,tcb-api.tencentcloudapi.com,tide-api.moreless.io,translator.felo.me,viart-api.afunapp.com,w.5hzs.com,wallpaper.jingqueyun.com,water*.yunxiaoguo.cn,widget-box-api.codefuture.top,www.119xkb.com,www.40sishi.com,www.dbbqb.com,www.ecigrxy.cn,www.freshhome.top,www.fuyoutech.club,www.huojiwangluo.cn,www.kaolahome.com,cat-revenuecat-qscqkotbrh.cn-hongkong.fcapp.run,www.kkmop.com,www.luqijianggushi.com,www.luyaolab.cn,www.skyjos.cn,www.xfx119.com,www.xiaomaigongkao.com,www.yiyujizhang.cn,www.yunshangxiezuo.com,www.zhouyilive.com,www2.tigeroom.com,xianbeikeji.com,xremit.xcurrency.com,explorer.tratao.com,yeguo.236api.com,yimuapp.com,yimutodo.com,youxifanyizhushou.com,zwpp.wzbz123.com, *.api.moji.com, *.kakamobi.cn, *.wps.cn, api-production.endel.io, api.995120.cn, api.hummingbird.businessreview.global, api.shuashuati.com, bzpp2.iwzbz.com, calendar.aiyohoo.com, firstclass.tripsy.app, focos.oracle.bendingspoonsapps.com, integral2.*.com, kc.xinli001.com, splice.oracle.bendingspoonsapps.com, twios.styleart.cn, www.1314zhilv.com, yopu.co, zy6kcqa01a.execute-api.us-east-2.amazonaws.com
