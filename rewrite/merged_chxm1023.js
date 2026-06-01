@@ -937,7 +937,7 @@ https?:\/\/zy6kcqa01a\.execute-api\.us-east-2\.amazonaws\.com\/prod\/verifyRecei
 # /*************************************
 # 
 # 项目名称：Revenuecat系列解锁合集
-# 更新日期：2026-05-25
+# 更新日期：2026-05-30
 # 脚本作者：@ddm1023
 # 电报频道：https://t.me/ddm1023
 # 使用声明：⚠️仅供参考，🈲转载与售卖！
@@ -1555,7 +1555,7 @@ https?:\/\/api\.intelimeditor\.com\/user\/loginByThirdPlatformApp url script-res
 # 
 # 项目名称：百度网盘
 # 下载地址：https://t.cn/AiT82mfg
-# 更新日期：2026-05-10
+# 更新日期：2026-05-31
 # 脚本作者：@ddm1023
 # 电报频道：https://t.me/ddm1023
 # 使用声明：⚠️仅供参考，🈲转载与售卖！

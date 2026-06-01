@@ -661,6 +661,7 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https:\/\/www\.haixue\.com\/advert\/app\/adInfo\/v1\/queryAdByPositionCode url reject-dict
 ^https?:\/\/www\.i3zh\.com url response-body cm-pop-up-banners response-body fmz200
 ^https?:\/\/napi\.ithome\.com\/api\/(news\/index|topmenu\/getfeeds) url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/ithome/ithome.js
+^https?:\/\/napi\.ithome\.com\/api\/news\/indexv2\/iphone\/927 url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/ithome/ithome.js
 ^https?:\/\/cdn\.jlbank\.com\.cn\/jlstaticresource\/APPSTART url reject-200
 ^https?:\/\/mbank5\.jsbchina\.cn:443 url reject-dict
 ^https?:\/\/yunbusiness\.ccb\.com\/(?>basic_service|clp_service)\/txCtrl\?txcode=A3341(?>SB16|C147|MB22|A009|A120|AB03|AB04|A068|A095|AB08) url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/ccblife.js
