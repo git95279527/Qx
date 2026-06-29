@@ -3305,6 +3305,12 @@ https?:\/\/oxtoon.(cyou|work|monster|net)\/((detail|comic)\/\d|buychapter).*$ ur
 #[mitm] 
 # hostname = mapi.kouyuxingqiu.com
 
+## lailian.js 从第1行到 [rewrite_local] 前一行：
+## [跳过] 未检测到 [rewrite_local]
+
+## lailian.js 中的 [rewrite_local] 到 hostname:
+## [跳过] 未检测到 rewrite_local 或 hostname
+
 ## leshi.js 从第1行到 [rewrite_local] 前一行：
 # /*
 #  *
