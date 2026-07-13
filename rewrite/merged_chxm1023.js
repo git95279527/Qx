@@ -937,7 +937,7 @@ https?:\/\/zy6kcqa01a\.execute-api\.us-east-2\.amazonaws\.com\/prod\/verifyRecei
 # /*************************************
 # 
 # 项目名称：Revenuecat系列解锁合集
-# 更新日期：2026-07-04
+# 更新日期：2026-07-12
 # 脚本作者：@ddm1023
 # 电报频道：https://t.me/ddm1023
 # 使用声明：⚠️仅供参考，🈲转载与售卖！
@@ -5760,7 +5760,7 @@ http:\/\/.*\.dicallapp\.com url script-response-body https://raw.githubuserconte
 # 脚本功能：辅助小工具
 # boxjs订阅: https://raw.githubusercontent.com/chxm1023/Script_X/main/ddm1023.boxjs.json
 # 下载地址：https://shm.to/zyyad
-# 更新日期：2026-07-03
+# 更新日期：2026-07-11
 # 脚本作者：@ddm1023
 # 电报频道：https://t.me/ddm1023
 # 使用声明：⚠️仅供参考，🈲转载与售卖！
@@ -5770,7 +5770,7 @@ http:\/\/.*\.dicallapp\.com url script-response-body https://raw.githubuserconte
 
 ## zyyad.js 中的 [rewrite_local] 到 hostname:
 #[rewrite_local]
-^https?:\/\/.*\.mihuangame\.com\/api\/v\d\/sys url script-request-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/zyyad.js
+^https?:\/\/.*\.mihuangame\.com\/api\/v\d\/sys\/user\/data url script-request-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/zyyad.js
 ^https?:\/\/.*\.mihuangame\.com\/(api\/v\d\/sys\/user|toutiaoGame\/ZhaoYunAndADou) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/zyyad.js
 
 #[mitm]
