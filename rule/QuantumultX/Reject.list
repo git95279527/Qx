@@ -74,6 +74,7 @@ DOMAIN,ads-sg.tiktok.com,REJECT
 DOMAIN,ads-video-al.xhscdn.com,REJECT
 DOMAIN,ads-video-qc.xhscdn.com,REJECT
 DOMAIN,ads.95516.com,REJECT
+DOMAIN,ads.adfunlink.com,REJECT
 DOMAIN,ads.auctions.yahoo.com,REJECT
 DOMAIN,ads.cup.com.cn,REJECT
 DOMAIN,ads.google.cn,REJECT
@@ -131,6 +132,7 @@ DOMAIN,adstudio.spotify.com,REJECT
 DOMAIN,adtago.s3.amazonaws.com,REJECT
 DOMAIN,adtech.yahooinc.com,REJECT
 DOMAIN,adtrack.quark.cn,REJECT
+DOMAIN,adtracker.adfunlink.com,REJECT
 DOMAIN,adtracker.medproad.com,REJECT
 DOMAIN,adui.tg.meitu.com,REJECT
 DOMAIN,adv-api.shenshiads.com,REJECT
@@ -326,7 +328,6 @@ DOMAIN,datacollection.uve.weibo.com,REJECT
 DOMAIN,dc.sigmob.cn,REJECT
 DOMAIN,de.tynt.com,REJECT
 DOMAIN,diagnosis.ad.xiaomi.com,REJECT
-DOMAIN,dig.bdurl.net,REJECT
 DOMAIN,dlogs.bwton.com,REJECT
 DOMAIN,dm.toutiao.com,REJECT
 DOMAIN,domain.aishengji.com,REJECT
@@ -425,7 +426,6 @@ DOMAIN,ii.gdt.qq.com,REJECT
 DOMAIN,image-ad.sm.cn,REJECT
 DOMAIN,image.hpplay.cn,REJECT
 DOMAIN,images.outbrainimg.com,REJECT
-DOMAIN,images.pinduoduo.com,REJECT
 DOMAIN,imdns.hpplay.cn,REJECT
 DOMAIN,img-c.heytapimage.com,REJECT
 DOMAIN,img-x.jd.com,REJECT
@@ -521,7 +521,6 @@ DOMAIN,mapi.m.jd.com,REJECT
 DOMAIN,masdkv6.3g.qq.com,REJECT
 DOMAIN,mazu.m.qq.com,REJECT
 DOMAIN,mbdlog.iqiyi.com,REJECT
-DOMAIN,mcs.zijieapi.com,REJECT
 DOMAIN,medproad.com,REJECT
 DOMAIN,metrics.data.hicloud.com,REJECT
 DOMAIN,metrics.icloud.com,REJECT
@@ -881,7 +880,6 @@ DOMAIN,yk-ssp.ad.youku.com,REJECT
 DOMAIN,ykad-data.cp31.ott.cibntv.net,REJECT
 DOMAIN,ykad-data.youku.com,REJECT
 DOMAIN,ykad-gateway.youku.com,REJECT
-DOMAIN,youku-acs.m.taobao.com,REJECT
 DOMAIN,ytx-file.110route.cn,REJECT
 DOMAIN,zeus.ad.xiaomi.com,REJECT
 DOMAIN,zhihu-web-analytics.zhihu.com,REJECT
