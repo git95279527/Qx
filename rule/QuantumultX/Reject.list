@@ -896,7 +896,6 @@ DOMAIN-SUFFIX,ad.gameley.com,REJECT
 DOMAIN-SUFFIX,adintl.cn,REJECT
 DOMAIN-SUFFIX,adx.adwangmai.com,REJECT
 DOMAIN-SUFFIX,data.hicloud.com,REJECT
-DOMAIN-SUFFIX,log.aliyuncs.com,REJECT
 DOMAIN-SUFFIX,ubixioe.com,REJECT
 DOMAIN-SUFFIX,vlion.cn,REJECT
 DOMAIN-SUFFIX,yfanads.com,REJECT
