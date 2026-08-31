@@ -1556,6 +1556,7 @@ https://mgesq.api.mgtv.com/dsl/index.+ url script-response-body https://raw.gith
 ^https?:\/\/api\.xiaoyuzhoufm\.com\/v\d\/ai url reject-dict
 ^https?:\/\/api\.xiaoyuzhoufm\.com\/v\d\/search\/get url reject-dict
 ^https?:\/\/api\.xiaoyuzhoufm\.com\/v\d\/category url reject-dict
+^https?:\/\/api\.xiaoyuzhoufm\.com\/v1\/(related-episode|operation-resource)\/list url jsonjq-response-body '.data = []'
 ^https?:\/\/myusmile\.online\/user\/version\/requestAppUpdate url reject-dict
 ^https?:\/\/myusmile\.online\/user\/version\/requestFirmwareUpdate\/ url reject
 ^https?:\/\/wemallh5\.usmile\.com\/api\/sp-portal\/store\/usmile\/activity\/dayCheck\?pop url reject-dict
