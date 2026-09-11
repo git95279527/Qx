@@ -45,9 +45,9 @@ jobs:
             #芒果TV
             ["collect/mgtv.js"]="https://raw.githubusercontent.com/WeiGiegie/666/main/mgtv.js"
             #知乎
-            ["collect/zhihu.js"]="https://raw.githubusercontent.com/WeiGiegie/666/main/zhihu.js"
-            ["collect/zhihutk.js"]="https://raw.githubusercontent.com/WeiGiegie/666/main/zhihutk.js"
-            ["collect/zhtk.js"]="https://raw.githubusercontent.com/WeiGiegie/666/main/zhtk.js"
+            #["collect/zhihu.js"]="https://raw.githubusercontent.com/WeiGiegie/666/main/zhihu.js"
+            #["collect/zhihutk.js"]="https://raw.githubusercontent.com/WeiGiegie/666/main/zhihutk.js"
+            #["collect/zhtk.js"]="https://raw.githubusercontent.com/WeiGiegie/666/main/zhtk.js"
             #迅雷
             ["collect/xunlei.js"]="https://raw.githubusercontent.com/WeiGiegie/666/main/xunlei.js"
             #咪咕视频
