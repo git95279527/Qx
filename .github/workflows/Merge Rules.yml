@@ -50,6 +50,12 @@ jobs:
           [ -s "$filename" ] || { echo "$filename download failed"; exit 1; }
         done
 
+    #处理自定义文件
+    - name: Process own files
+      run: |
+         sed -i -e '/^[[:space:]]*#/d' -e '/^[[:space:]]*$/d' Reject.txt
+         sed -i -e '/^[[:space:]]*#/d' -e '/^[[:space:]]*$/d' Direct.txt
+
     # 修改并整理 QuantumultX 格式
     - name: Process QuantumultX rules
       run: |
@@ -101,7 +107,7 @@ jobs:
         
         curl -fsSL -o direct-list.txt https://raw.githubusercontent.com/git95279527/v2ray-rules-dat/release/direct-list.txt
         sed -i 's/^/./' direct-list.txt
-        cat L_MyDirect.list direct-list.txt > all-direct.txt
+        cat L_MyDirect.list direct-list.txt | sort -u > all-direct.txt
         rm direct-list.txt 
 
         mkdir -p ./rule/Loon
