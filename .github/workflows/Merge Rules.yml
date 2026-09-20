@@ -89,6 +89,8 @@ jobs:
       run: |
         cp -f Reject.txt L_MyReject.list
         cp -f Direct.txt L_MyDirect.list
+        sed -i 's/^/./' L_MyReject.list
+        sed -i 's/^/./' L_MyDirect.list
 
         sed -i '/^[!#]/d; /^\s*$/d; s/full://g' AWAvenue-Ads-Rule-Loon.list
         cat L_AdvertisingLite.list | sort -u > L_Reject_RuleSet.list
@@ -96,9 +98,14 @@ jobs:
         cat L_Apple.list L_ChinaMaxNoIP.list | sort -u > L_Direct_RuleSet.list
         cat L_MyReject.list AWAvenue-Ads-Rule-Loon.list L_Advertising_Domain.list | sort -u > L_Reject_Domain.list
         sed -i '/tiktok/Id' L_Direct_RuleSet.list
+        
+        curl -fsSL -o direct-list.txt https://raw.githubusercontent.com/git95279527/v2ray-rules-dat/release/direct-list.txt
+        sed -i 's/^/./' direct-list.txt
+        cat L_MyDirect.list direct-list.txt > all-direct.txt
+        rm direct-list.txt 
 
         mkdir -p ./rule/Loon
-        mv -f L_Direct_Domain.list L_Direct_RuleSet.list L_Reject_RuleSet.list L_Reject_Domain.list ./rule/Loon
+        mv -f all-direct.txt L_Direct_Domain.list L_Direct_RuleSet.list L_Reject_RuleSet.list L_Reject_Domain.list ./rule/Loon
         
     - name: Delete remark and blank comment
       run: |
