@@ -1,3 +1,16 @@
+.#google分析
+.#swcdn.apple.com #optional, download url
+.#友盟广告
+.#国产集合
+.#屏蔽Google Chrome更新
+.#屏蔽Xmind更新
+.#屏蔽ios更新
+.#屏蔽macOS更新
+.#屏蔽parallels更新
+.#屏蔽群晖系统更新
+.#拦截WPS
+.#绕过Apple企业证书过期
+.#避免迅雷版权问题
 .000dn.com
 .001union.com
 .0024aaaa.com
@@ -1892,6 +1905,7 @@
 .ahw3.com
 .ahyau.com
 .ahyuns.com
+.ai-sg.wps.com
 .ai.bioon.com
 .ai.inmdata.io
 .ai.iol.io
@@ -2120,6 +2134,7 @@
 .andmlbf.tj.ijinshan.com
 .android-lrcresource.wps.cn
 .androidlog.shouji.baofeng.com
+.androidweb.wps.com
 .ane.yahoo.co.jp
 .anfeng.com
 .angsrvr.com
@@ -2407,6 +2422,8 @@
 .authornernsa.pro
 .autobedo.com.cn
 .automationeventually.com
+.autoupdate7.synology.cn
+.autoupdate7.synology.com
 .autoyou1678.com
 .auxml.com
 .avalhukof.com
@@ -4389,6 +4406,7 @@
 .dl.xzqxzs.com
 .dl1sw.baidu.com
 .dl2.bav.baidu.com
+.dl2.xmind.com
 .dlb1uotpjs6s.com
 .dldsrs.com
 .dleke.com
@@ -5397,6 +5415,7 @@
 .g1.163.com
 .g1.corp.163.com
 .g1.pptair.com
+.g1.tagtic.cn
 .g1.taijuba.com
 .g1c5.com
 .g1dxj6q1qfl2.com
@@ -5513,6 +5532,7 @@
 .gdlbdzkj.com
 .gdlvbiaokeji.cn
 .gdmconvtrck.com
+.gdmf.apple.com
 .gdsc168.com
 .gdskywings.com
 .gdsqwy.org
@@ -5733,6 +5753,7 @@
 .goodgz.cn
 .goods.tudou.com
 .goodwold.top
+.google-analytics.com
 .googlealiyun.cn
 .googlecommerce.com
 .googlespider1.cn
@@ -6250,7 +6271,10 @@
 .huayange.com
 .huayi65.com
 .hub5btmain.sandai.net
+.hub5btmain.v6.shub.sandai.net
 .hub5emu.sandai.net
+.hub5emu.v6.shub.sandai.net
+.hub5idx.v6.shub.sandai.net
 .hub5pn.wap.sandai.net
 .hubojd.com
 .huckauhy.com
@@ -6508,6 +6532,7 @@
 .img.3sjt.com
 .img.88ads.com
 .img.9duw.com
+.img.adnyg.com
 .img.adnyg.com.w.kunlungr.com
 .img.alimama.cn
 .img.auction-ads.wpscdn.cn
@@ -7716,6 +7741,7 @@
 .log.suchen.de
 .log.superweb.ws
 .log.sv.pandora.tv
+.log.tagtic.cn
 .log.tbs.qq.com
 .log.vcdn.io
 .log.vcgame.cn
@@ -8199,6 +8225,7 @@
 .meooe.com
 .mercadolibre.com
 .message.meitu.com
+.mesu.apple.com
 .meta.video.qiyi.com
 .metalex.io
 .metmt.com
@@ -8590,6 +8617,7 @@
 .myhug.cn
 .myjsym.zichenit.com
 .mymm.zichenit.com
+.myparallels.com
 .myregeneaf.com
 .mysty.com.cn
 .mytanwan.com
@@ -8940,6 +8968,7 @@
 .oca.telemetry.microsoft.com.nsatc.net
 .ocm8.masmovil.es
 .ocponcphaafb.com
+.ocsp.apple.com
 .ocsp.godaddy.com
 .octopuszyw.cn
 .od0gddq27wkk.com
@@ -9206,7 +9235,17 @@
 .pap.zalando.de
 .papa999.xyz
 .papajia55.com
+.parallels.cn
+.parallels.com
+.parallels.com.cdn.cloudflare.net
+.parallels.de
+.parallels.es
+.parallels.fr
+.parallels.nl
+.parallels.pt
+.parallels.ru
 .parallelsdesktop.cn
+.parallelskorea.com
 .paratingsulik.site
 .parketbedde.info
 .parking.zunmi.cn
@@ -9325,6 +9364,7 @@
 .pg88cdn.com
 .pgdt.gtimg.cn
 .pgdt.gtimg.com
+.pgdt.ugdtimg.com
 .pgradualirelev.info
 .phabsoun.net
 .phar.gu-web.net
@@ -10484,6 +10524,7 @@
 .sdkpay.uu.cc
 .sdl.0.0.0.0.cn
 .sdn.kugou.com
+.sdownload.stargame.com
 .sdqoi2d.com
 .sdsqyyc.com
 .sdtbhbyb.com
@@ -10541,6 +10582,8 @@
 .sfloushi.com
 .sfxl.com.cn
 .sfz023.com
+.sg-account.wps.com
+.sg-drive.wps.com
 .sg.a.stat.mi.com
 .sg.keytui.com
 .sg2rgnza7k9t.com
@@ -11249,6 +11292,7 @@
 .sw.mobile.sogou.com
 .swa.gtimg.com
 .swappdl.duoyi.com
+.swdist.apple.com
 .sweet.game-rust.ru
 .swesomepop.com
 .swhgd.com
@@ -11257,6 +11301,7 @@
 .swoodlander.site
 .swpgjai.pop.weddingeeos.com
 .swq48b.cn
+.swscan.apple.com
 .swtkc.cn
 .swx.0.0.0.0.cn
 .swzhaohuo.com.cn
@@ -11693,6 +11738,7 @@
 .tool.btrabbit.la
 .toolbar.baidu.com
 .toolbar.msn.com
+.tools.google.com
 .tools.ranker.com
 .toots-a.akamaihd.net
 .toourbb.com
@@ -12137,6 +12183,8 @@
 .um0592.com
 .um29.com
 .umbbs.cn
+.umeng.com
+.umengcloud.com
 .umid.orion.meizu.com
 .umjsik.com
 .umm6.cn
@@ -12207,8 +12255,11 @@
 .update.avlyun.sec.miui.com
 .update.bainv.net
 .update.coolyun.com
+.update.googleapis.com
 .update.juw37xqo3x.com
 .update.mobile.kugou.com
+.update.synology.com
+.update7.synology.com
 .updatecenter.qq.com
 .updatepage.kuwo.cn
 .updates-s3.binaryage.com
@@ -13205,6 +13256,7 @@
 .xnjpg.com
 .xnjzsn.com
 .xoredi.com
+.xp.apple.com
 .xp3366.com
 .xpcy.m.gxwztv.com
 .xpj1.net
@@ -16361,7 +16413,6 @@ ahuivddkvrrebo.com
 ahwzvnqc.com
 ahxhny.cn
 ahyhhxpeeswgtl.com
-ai-sg.wps.com
 aibantian.cn
 aibcqjlvxxd.com
 aichaima.top
@@ -16678,7 +16729,6 @@ andomedia.com
 andomediagroup.com
 android-sdk31.transpera.com
 android.bcfads.com
-androidweb.wps.com
 andrqd.play.aiseet.atianqi.com
 andvqrqaeu.com
 andyetanotherthing.com
@@ -17143,8 +17193,6 @@ automateyourlist.com
 automaticside.com
 automoc.net
 autopilothq.com
-autoupdate7.synology.cn
-autoupdate7.synology.com
 av8d.net
 avads.co.uk
 avajo.men
@@ -20564,7 +20612,6 @@ dl.heima8.com
 dl.microsword.net
 dl.weshineapp.com
 dl1d2m8ri9v3j.cloudfront.net
-dl2.xmind.com
 dlawshsjupuyy.com
 dlcgxmentykv.com
 dldiuzdkrqbk.com
@@ -22648,7 +22695,6 @@ g.pgu.cc
 g.zhangaiwan.com
 g.zhoukaika.com
 g05.info
-g1.tagtic.cn
 g1341551423.com
 g17media.com
 g2.ganjing.world
@@ -22757,7 +22803,6 @@ gdczbvckwjafu.com
 gdeslon.ru
 gdfp.gifshow.com
 gdmdigital.com
-gdmf.apple.com
 gdpr-service.herokuapp.com
 gdpr.internetbrands.com
 gdpr.prisa.com
@@ -23991,9 +24036,6 @@ huatuo.qq.com
 huatuo.weiyun.com
 huayiav.cn
 hub.com.pl
-hub5btmain.v6.shub.sandai.net
-hub5emu.v6.shub.sandai.net
-hub5idx.v6.shub.sandai.net
 hubahczah.com
 hubrus.com
 hubtraffic.com
@@ -24387,7 +24429,6 @@ img-cdn-eu.pro
 img-cdn-us.pro
 img-x.jd.com
 img.1whour.com
-img.adnyg.com
 img.adnyg.com.w.kunlungr.com
 img.ads.huntmad.com
 img.ads.mobilefuse.net
@@ -27407,7 +27448,6 @@ merlin.abc.go.com
 merrymilkfoods.com
 meryjane.pro
 messengerpeople.com
-mesu.apple.com
 meta4-group.com
 metalyzer.com
 metartmoney.com
@@ -28103,7 +28143,6 @@ myomnistar.com
 myopenads.com
 myornamenti.com
 mypagerank.net
-myparallels.com
 myprecisionads.com
 mypydwibqja.com
 myqdpxaofyzkwf.com
@@ -28896,7 +28935,6 @@ oconner.biz
 ocpersian.com
 ocphuciylacb.com
 ocphuulbithyyd.com
-ocsp.apple.com
 octavius.rocks
 octomarket.com
 octopart-analytics.com
@@ -29572,16 +29610,6 @@ paperg.com
 papoto.com
 paqtnspb.com
 paradocs.ru
-parallels.cn
-parallels.com
-parallels.com.cdn.cloudflare.net
-parallels.de
-parallels.es
-parallels.fr
-parallels.nl
-parallels.pt
-parallels.ru
-parallelskorea.com
 parameter.dk
 paraskov.com
 paratingexcret.info
@@ -32592,9 +32620,7 @@ sfmnafrufk.com
 sfokenghj.com
 sftpgyqdrexl.com
 sfxuiadi.com
-sg-account.wps.com
 sg-autorepondeur.com
-sg-drive.wps.com
 sg888.vip
 sgbmhkptxali.com
 sghehllds.com
@@ -33769,7 +33795,6 @@ swbdds.com
 swc.weather.com.cn
 swcs.jp
 swcuxrfitmjfee.com
-swdist.apple.com
 swe.shylsp.com
 sweeterge.info
 sweetmedia.org
@@ -33788,7 +33813,6 @@ swmwgptzlgsc.com
 swoop.com
 sworatio.co
 swqlzufnbngw.com
-swscan.apple.com
 swstkrihg.com
 swtubbksgvg.com
 swxrxdej.com
@@ -34458,7 +34482,6 @@ toolbar.cdn.gigya.com
 toolbar.complex.com
 tools.bongacams.com
 tools.gfcash.com
-tools.google.com
 toonikab.com
 toonoaho.net
 tooshoab.com
@@ -35292,9 +35315,7 @@ umbel.com
 umc.danuoyi.alicdn.com
 umebiggestern.club
 umekana.ru
-umeng.com
 umengacs.m.taobao.com
-umengcloud.com
 umengjmacs.m.taobao.com
 umessage-online-zb.uc.cn
 umgbvaurcx.com
@@ -35403,11 +35424,8 @@ upckrtagwpwk.com
 updat120.clanteam.com
 update.51edm.net
 update.avlyun.sec.miui.com
-update.googleapis.com
 update.lejiao.tv
-update.synology.com
 update0.aiclk.com
-update7.synology.com
 updo.nl
 upgrade-update.hismarttv.com
 uphuatdmwbdm.com
@@ -37548,7 +37566,6 @@ xorotmjjst.com
 xotaiybjyj.com
 xotsa.frenchgerlemanelectric.com
 xoyoijhp.com
-xp.apple.com
 xp666.com
 xpahdmitqadqda.com
 xpbjjdrcwuqkks.com
