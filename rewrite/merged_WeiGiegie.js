@@ -1545,6 +1545,28 @@ https?:\/\/app.666syh.com\/cloud\/api-(mall\/book\/(online\/getOnlineLearnDel|bo
 #[mitm] 
 # hostname = cn.invit.vip,www.lovewith.me,poster.leminet.cn
 
+## els.js 从第1行到 [rewrite_local] 前一行：
+# /*
+#  *
+#  *
+# 脚本功能：俄罗斯克拉 去会员+广告🔞
+# 软件版本：1.1.10
+# 下载地址：
+# 脚本作者：
+# 更新时间：2026年9月10日
+# 电报频道：https://t.me/GieGie777
+# 问题反馈：https://t.me/GieGie777
+# 使用声明：此脚本仅供学习与交流，请在下载使用24小时内删除！请勿在中国大陆转载与贩卖！
+# *******************************
+
+## els.js 中的 [rewrite_local] 到 hostname:
+#[rewrite_local]
+# > 俄罗斯克拉 去会员+广告🔞
+^https?:\/\/sixth.xxcjpt.com\/java\/(user\/my|show) url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/els.js
+
+#[mitm]
+# hostname = sixth.xxcjpt.com
+
 ## elskl.js 从第1行到 [rewrite_local] 前一行：
 # /*
 #  *
