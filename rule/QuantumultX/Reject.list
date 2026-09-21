@@ -72,6 +72,7 @@ DOMAIN,adks.hpplay.cn,REJECT
 DOMAIN,adlink-api.huan.tv,REJECT
 DOMAIN,adlog.vivo.com.cn,REJECT
 DOMAIN,adm.funshion.com,REJECT
+DOMAIN,adm.zhangyuyidong.cn,REJECT
 DOMAIN,admarketing.yahoo.net,REJECT
 DOMAIN,admobile.top,REJECT
 DOMAIN,adreq.vivo.com.cn,REJECT
@@ -136,6 +137,7 @@ DOMAIN,adsfs.heytapimage.com,REJECT
 DOMAIN,adsfs.oppomobile.com,REJECT
 DOMAIN,adslvfile.qq.com,REJECT
 DOMAIN,adsmart.konka.com,REJECT
+DOMAIN,adsmartget.datads.cn,REJECT
 DOMAIN,adsmind.gdtimg.com,REJECT
 DOMAIN,adsmind.ugdtimg.com,REJECT
 DOMAIN,adsmoloco.com,REJECT
@@ -352,6 +354,7 @@ DOMAIN,data.mistat.rus.xiaomi.com,REJECT
 DOMAIN,data.mistat.xiaomi.com,REJECT
 DOMAIN,datacollection.uve.weibo.com,REJECT
 DOMAIN,dc.sigmob.cn,REJECT
+DOMAIN,de.ad.gameley.com,REJECT
 DOMAIN,de.tynt.com,REJECT
 DOMAIN,diagnosis.ad.xiaomi.com,REJECT
 DOMAIN,dlogs.bwton.com,REJECT
@@ -479,6 +482,7 @@ DOMAIN,ixav-cse.avlyun.com,REJECT
 DOMAIN,iyfbodn.com,REJECT
 DOMAIN,janapi.jd.com,REJECT
 DOMAIN,jiguang.cn,REJECT
+DOMAIN,jp.ad.gameley.com,REJECT
 DOMAIN,jpush.cn,REJECT
 DOMAIN,jpush.html5.qq.com,REJECT
 DOMAIN,jpush.io,REJECT
@@ -592,6 +596,7 @@ DOMAIN,monitor.music.qq.com,REJECT
 DOMAIN,monitor.uu.qq.com,REJECT
 DOMAIN,monsetting.toutiao.com,REJECT
 DOMAIN,mores.toponad.com,REJECT
+DOMAIN,mpcfg.fancydsp.com,REJECT
 DOMAIN,ms.applovin.com,REJECT
 DOMAIN,ms.applvn.com,REJECT
 DOMAIN,ms4.applovin.com,REJECT
@@ -706,16 +711,20 @@ DOMAIN,saxysec.com,REJECT
 DOMAIN,scs.openspeech.cn,REJECT
 DOMAIN,sdk-ab-config.qquanquan.com,REJECT
 DOMAIN,sdk-cache.video.ptqy.gitv.tv,REJECT
+DOMAIN,sdk-track.66mobi.com,REJECT
 DOMAIN,sdk.1rtb.net,REJECT
 DOMAIN,sdk.ad.smaato.net,REJECT
+DOMAIN,sdk.adhuanxiao.com,REJECT
 DOMAIN,sdk.adx.adwangmai.com,REJECT
 DOMAIN,sdk.aqyad.com,REJECT
 DOMAIN,sdk.beizi.biz,REJECT
 DOMAIN,sdk.cferw.com,REJECT
 DOMAIN,sdk.e.qq.com,REJECT
 DOMAIN,sdk.hzsanjiaomao.com,REJECT
+DOMAIN,sdk.hzzfcm.com,REJECT
 DOMAIN,sdk.markmedia.com.cn,REJECT
 DOMAIN,sdk.mobads.adwangmai.com,REJECT
+DOMAIN,sdk.zhangyuyidong.cn,REJECT
 DOMAIN,sdkapi.cloooud.com,REJECT
 DOMAIN,sdkapp.uve.weibo.com,REJECT
 DOMAIN,sdkauth.hpplay.cn,REJECT
@@ -724,6 +733,7 @@ DOMAIN,sdkconfig.ad.intl.xiaomi.com,REJECT
 DOMAIN,sdkconfig.ad.xiaomi.com,REJECT
 DOMAIN,sdkconfig.play.aiseet.atianqi.com,REJECT
 DOMAIN,sdkconfig.video.qq.com,REJECT
+DOMAIN,sdklog.zhangyuyidong.cn,REJECT
 DOMAIN,sdkoptedge.chinanetcenter.com,REJECT
 DOMAIN,sdkreport.e.qq.com,REJECT
 DOMAIN,sdktmp.hubcloud.com.cn,REJECT
@@ -916,6 +926,7 @@ DOMAIN,wxsnsad.tc.qq.com,REJECT
 DOMAIN,wxsnsdy.tc.qq.com,REJECT
 DOMAIN,wxsnsdy.wxs.qq.com,REJECT
 DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
+DOMAIN,xadsmartget.adgain.cn,REJECT
 DOMAIN,xc.gdt.qq.com,REJECT
 DOMAIN,xcx.dcad01.com,REJECT
 DOMAIN,xiaomi-dtv.m.cn.miaozhen.com,REJECT
