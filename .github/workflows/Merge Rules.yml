@@ -23,21 +23,21 @@ jobs:
           [Reject.txt]="https://raw.githubusercontent.com/git95279527/MosDNS/main/blocklist.txt"
           [Direct.txt]="https://raw.githubusercontent.com/git95279527/MosDNS/main/whitelist.txt"
           #QuantumultX
-          [Advertising.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/AdvertisingLite/AdvertisingLite.list"
+          [Advertising.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Advertising/Advertising.list"
           [Apple.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Apple/Apple.list"
           [ChinaMaxNoIP.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaMaxNoIP/ChinaMaxNoIP.list"
           [AWAvenue-Ads-Rule-QuantumultX.list]="https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-QuantumultX.list"
           #Shadowrocket
-          [S_AdvertisingLite.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/AdvertisingLite/AdvertisingLite.list"
-          [S_Advertising_Domain.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/AdvertisingLite/AdvertisingLite_Domain.list"
+          [S_Advertising.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Advertising/Advertising.list"
+          [S_Advertising_Domain.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Advertising/Advertising_Domain.list"
           [S_Apple.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Apple/Apple.list"
           [S_Apple_Domain.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Apple/Apple_Domain.list"
           [S_ChinaMaxNoIP.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaMaxNoIP/ChinaMaxNoIP.list"
           [S_ChinaMaxNoIP_Domain.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaMaxNoIP/ChinaMaxNoIP_Domain.list"
           [AWAvenue-Ads-Rule-Shadowrocket.list]="https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Geosite.txt"
           #Loon
-          [L_AdvertisingLite.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AdvertisingLite/AdvertisingLite.list"
-          [L_Advertising_Domain.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AdvertisingLite/AdvertisingLite_Domain.list"
+          [L_Advertising.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising.list"
+          [L_Advertising_Domain.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising_Domain.list"
           [L_Apple.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Apple/Apple.list"
           [L_Apple_Domain.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Apple/Apple_Domain.list"
           [L_ChinaMaxNoIP.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMaxNoIP/ChinaMaxNoIP.list"
@@ -65,7 +65,7 @@ jobs:
         sed -i '/^#/d; s/^/HOST-SUFFIX,/; s/$/,DIRECT/' MyDirect.list
         sed -i 's/,Apple/,DIRECT/g' Apple.list
         sed -i 's/,ChinaMaxNoIP/,DIRECT/g' ChinaMaxNoIP.list
-        sed -i 's/,AdvertisingLite/,REJECT/g' Advertising.list
+        sed -i 's/,Advertising/,REJECT/g' Advertising.list
         sed -i 's/,reject/,REJECT/g' AWAvenue-Ads-Rule-QuantumultX.list
 
         cat MyDirect.list Apple.list ChinaMaxNoIP.list | sort -u > Direct.list
@@ -81,7 +81,7 @@ jobs:
         cp -f Direct.txt S_MyDirect.list
 
         sed -i '/^[!#]/d; /^\s*$/d; s/full://g' AWAvenue-Ads-Rule-Shadowrocket.list
-        cat S_AdvertisingLite.list | sort -u > S_Reject_RuleSet.list
+        cat S_Advertising.list | sort -u > S_Reject_RuleSet.list
         cat S_MyDirect.list S_Apple_Domain.list S_ChinaMaxNoIP_Domain.list | sort -u > S_Direct_Domain.list
         cat S_Apple.list S_ChinaMaxNoIP.list | sort -u > S_Direct_RuleSet.list
         cat S_MyReject.list AWAvenue-Ads-Rule-Shadowrocket.list S_Advertising_Domain.list | sort -u > S_Reject_Domain.list
@@ -102,7 +102,7 @@ jobs:
         sed -i 's/^/./' L_MyDirect.list
 
         sed -i '/^[!#]/d; /^\s*$/d; s/full://g' AWAvenue-Ads-Rule-Loon.list
-        cat L_AdvertisingLite.list | sort -u > L_Reject_RuleSet.list
+        cat L_Advertising.list | sort -u > L_Reject_RuleSet.list
         cat L_MyDirect.list direct-list.txt L_Apple_Domain.list L_ChinaMaxNoIP_Domain.list | sort -u > L_Direct_Domain.list
         cat L_Apple.list L_ChinaMaxNoIP.list | sort -u > L_Direct_RuleSet.list
         cat L_MyReject.list AWAvenue-Ads-Rule-Loon.list L_Advertising_Domain.list | sort -u > L_Reject_Domain.list
