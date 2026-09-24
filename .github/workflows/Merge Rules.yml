@@ -93,6 +93,9 @@ jobs:
       # 修改并整理 Loon 格式
     - name: Process Loon rules
       run: |
+        curl -fsSL -o direct-list.txt https://raw.githubusercontent.com/git95279527/v2ray-rules-dat/release/direct-list.txt
+        sed -i 's/^/./' direct-list.txt
+        
         cp -f Reject.txt L_MyReject.list
         cp -f Direct.txt L_MyDirect.list
         sed -i 's/^/./' L_MyReject.list
@@ -100,13 +103,11 @@ jobs:
 
         sed -i '/^[!#]/d; /^\s*$/d; s/full://g' AWAvenue-Ads-Rule-Loon.list
         cat L_AdvertisingLite.list | sort -u > L_Reject_RuleSet.list
-        cat L_MyDirect.list L_Apple_Domain.list L_ChinaMaxNoIP_Domain.list | sort -u > L_Direct_Domain.list
+        cat L_MyDirect.list direct-list.txt L_Apple_Domain.list L_ChinaMaxNoIP_Domain.list | sort -u > L_Direct_Domain.list
         cat L_Apple.list L_ChinaMaxNoIP.list | sort -u > L_Direct_RuleSet.list
         cat L_MyReject.list AWAvenue-Ads-Rule-Loon.list L_Advertising_Domain.list | sort -u > L_Reject_Domain.list
         sed -i '/tiktok/Id' L_Direct_RuleSet.list
-        
-        curl -fsSL -o direct-list.txt https://raw.githubusercontent.com/git95279527/v2ray-rules-dat/release/direct-list.txt
-        sed -i 's/^/./' direct-list.txt
+
         cat L_MyDirect.list direct-list.txt | sort -u > all-direct.txt
         rm direct-list.txt 
 
