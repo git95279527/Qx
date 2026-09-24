@@ -109,8 +109,7 @@ jobs:
         sed -i '/tiktok/Id' L_Direct_RuleSet.list
 
         cat L_MyDirect.list direct-list.txt | sort -u > all-direct.txt
-        rm direct-list.txt 
-
+        
         mkdir -p ./rule/Loon
         mv -f all-direct.txt L_Direct_Domain.list L_Direct_RuleSet.list L_Reject_RuleSet.list L_Reject_Domain.list ./rule/Loon
         
