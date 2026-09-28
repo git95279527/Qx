@@ -94,6 +94,8 @@ jobs:
     - name: Process Loon rules
       run: |
         curl -fsSL -o direct-list.txt https://raw.githubusercontent.com/git95279527/v2ray-rules-dat/release/direct-list.txt
+        sed -i 's/full://g' direct-list.txt
+        sed -i '/regexp:/d' direct-list.txt
         sed -i 's/^/./' direct-list.txt
         
         cp -f Reject.txt L_MyReject.list
