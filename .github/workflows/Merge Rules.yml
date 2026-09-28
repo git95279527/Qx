@@ -97,6 +97,11 @@ jobs:
         sed -i 's/full://g' direct-list.txt
         sed -i '/regexp:/d' direct-list.txt
         sed -i 's/^/./' direct-list.txt
+
+        curl -fsSL -o proxy-list.txt https://raw.githubusercontent.com/git95279527/v2ray-rules-dat/release/proxy-list.txt
+        sed -i 's/full://g' proxy-list.txt
+        sed -i '/regexp:/d' proxy-list.txt
+        sed -i 's/^/./' proxy-list.txt
         
         cp -f Reject.txt L_MyReject.list
         cp -f Direct.txt L_MyDirect.list
@@ -113,7 +118,7 @@ jobs:
         cat L_MyDirect.list direct-list.txt | sort -u > all-direct.txt
         
         mkdir -p ./rule/Loon
-        mv -f all-direct.txt L_Direct_Domain.list L_Direct_RuleSet.list L_Reject_RuleSet.list L_Reject_Domain.list ./rule/Loon
+        mv -f proxy-list.txt all-direct.txt L_Direct_Domain.list L_Direct_RuleSet.list L_Reject_RuleSet.list L_Reject_Domain.list ./rule/Loon
         
     - name: Delete remark and blank comment
       run: |
