@@ -9525,6 +9525,7 @@
 .fxporn.net
 .fzdm.com
 .fzdshare.net
+.fzxpeg.cc
 .g-area.org
 .g-ib.ae
 .g-ib.ru
@@ -9884,6 +9885,7 @@
 .ghcr.io
 .ghe.com
 .ghettotube.com
+.ghfast.top
 .ghidra-sre.org
 .ghostarchive.org
 .ghostgames.com
@@ -11635,6 +11637,7 @@
 .huaren.us
 .huarenav.com
 .huarenporn.com
+.huarun.win
 .huashangnews.com
 .huashundg.com
 .huati.cc
@@ -14917,6 +14920,7 @@
 .met-nude.com
 .meta.ai
 .meta.com
+.metaaivm.com
 .metabora.io
 .metabrainz.org
 .metacloud.com
@@ -15926,6 +15930,7 @@
 .muscache.com
 .muscdn.com
 .musclegirlflix.com
+.muse.ai
 .mushroomtrack.com
 .mushymush.tv
 .musical.ly
@@ -17393,6 +17398,7 @@
 .openbook.org.tw
 .opencas.io
 .openclaw.ai
+.opencode.ai
 .opencollective.com
 .opencreate.org
 .opencritic.com
@@ -23228,6 +23234,7 @@
 .v2.help
 .v2.hysteria.network
 .v2ex.com
+.v2ex.pro
 .v2fly.org
 .v2ph.com
 .v2ray.com
@@ -26575,6 +26582,8 @@
 .gamedownloads-rockstargames-com.akamaized.net
 .gamer-cds.cdn.hinet.net
 .gamer2-cds.cdn.hinet.net
+.geminiweb-pa.clients.google.com
+.geminiweb-pa.clients6.google.com
 .gigabyte2.azureedge.net
 .github-api.arkoselabs.com
 .github-cloud.s3.amazonaws.com
