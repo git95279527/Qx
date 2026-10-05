@@ -5545,6 +5545,7 @@
 .clau.de
 .claude.ai
 .claude.com
+.claude.dev
 .claudemcpclient.com
 .claudemcpcontent.com
 .claudeusercontent.com
@@ -9515,6 +9516,7 @@
 .fututrade.com
 .fututrustee.com
 .fuxporn.com
+.fuyin116.com
 .fuzokudx.com
 .fw.cm
 .fxcm-chinese.com
@@ -23233,6 +23235,7 @@
 .v.recipes
 .v2.help
 .v2.hysteria.network
+.v2ex.co
 .v2ex.com
 .v2ex.pro
 .v2fly.org
