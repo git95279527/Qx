@@ -204,7 +204,7 @@ jobs:
 
         #删除注释空白行
         sed -i '/^#/d; /^\s*$/d' merged_ad.js
-        perl -pi -e 's/^(\s*(?:host-suffix|host-keyword|host|user-agent|ip6-cidr)),\s*/$1, /; s/^(\s*(?:host-suffix|host-keyword|host|user-agent|ip6-cidr),[^,]+),\s*/$1, /' merged_ad.js
+        sed -i -E '/^[[:space:]]*(host-suffix|host-keyword|host|user-agent|ip6-cidr),/I s/,([^[:space:]])/, \1/g' merged_ad.js
         sed -i '/^#/d; /^\s*$/d' merged_collect.js
         
         mkdir -p ./rewrite
