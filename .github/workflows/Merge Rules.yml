@@ -44,7 +44,7 @@ jobs:
           [L_Microsoft.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Microsoft/Microsoft.list"
           [L_ChinaMaxNoIP.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMaxNoIP/ChinaMaxNoIP.list"
           [L_ChinaMaxNoIP_Domain.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMaxNoIP/ChinaMaxNoIP_Domain.list"
-          [AWAvenue-Ads-Rule-Loon.list]="https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Geosite.txt"
+          [AWAvenue-Ads-Rule-Loon.list]="https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/refs/heads/main/Filters/AWAvenue-Ads-Rule-Loon.module"
         )
         set -e
         for filename in "${!files[@]}"; do
@@ -111,15 +111,15 @@ jobs:
         sed -i 's/^/./' L_MyReject.list
         sed -i 's/^/./' L_MyDirect.list
 
-        sed -i '/^[!#]/d; /^\s*$/d; s/full://g' AWAvenue-Ads-Rule-Loon.list
-        cat L_Advertising.list | sort -u > L_Reject_RuleSet.list
+        #sed -i '/^[!#]/d; /^\s*$/d; s/full://g' AWAvenue-Ads-Rule-Loon.list
+        cat L_Advertising.list AWAvenue-Ads-Rule-Loon.list | sort -u > L_Reject_RuleSet.list
         cat L_MyDirect.list direct-list.txt L_Apple_Domain.list L_ChinaMaxNoIP_Domain.list | sort -u > L_Direct_Domain.list
         cat L_Apple.list L_Microsoft.list L_ChinaMaxNoIP.list | sort -u > L_Direct_RuleSet.list
         cat L_MyReject.list AWAvenue-Ads-Rule-Loon.list L_Advertising_Domain.list | sort -u > L_Reject_Domain.list
         sed -i '/tiktok/Id' L_Direct_RuleSet.list
         
         mkdir -p ./rule/Loon
-        mv -f proxy-list.txt all-direct.txt L_Direct_Domain.list L_Direct_RuleSet.list L_Reject_RuleSet.list L_Reject_Domain.list ./rule/Loon
+        mv -f proxy-list.txt L_Direct_Domain.list L_Direct_RuleSet.list L_Reject_RuleSet.list L_Reject_Domain.list ./rule/Loon
         
     - name: Delete remark and blank comment
       run: |
