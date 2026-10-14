@@ -25,6 +25,7 @@ jobs:
           #QuantumultX
           [Advertising.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/AdvertisingLite/AdvertisingLite.list"
           [Apple.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Apple/Apple.list"
+          [Microsoft.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Microsoft/Microsoft.list"
           [ChinaMaxNoIP.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaMaxNoIP/ChinaMaxNoIP.list"
           [AWAvenue-Ads-Rule-QuantumultX.list]="https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-QuantumultX.list"
           #Shadowrocket
@@ -65,6 +66,7 @@ jobs:
         sed -i '/^#/d; s/^/HOST-SUFFIX,/; s/$/,REJECT/' MyReject.list
         sed -i '/^#/d; s/^/HOST-SUFFIX,/; s/$/,DIRECT/' MyDirect.list
         sed -i 's/,Apple/,DIRECT/g' Apple.list
+        sed -i 's/,Microsoft/,DIRECT/g' Microsoft.list
         sed -i 's/,ChinaMaxNoIP/,DIRECT/g' ChinaMaxNoIP.list
         sed -i 's/,Advertising/,REJECT/g' Advertising.list
         sed -i 's/,reject/,REJECT/g' AWAvenue-Ads-Rule-QuantumultX.list
