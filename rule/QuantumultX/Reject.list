@@ -8,6 +8,8 @@ DOMAIN,aaid.umeng.com,REJECT
 DOMAIN,abtest-ch.snssdk.com,REJECT
 DOMAIN,ad-api.4pyun.com,REJECT
 DOMAIN,ad-cdn.qingting.fm,REJECT
+DOMAIN,ad-cmp.hismarttv.com,REJECT
+DOMAIN,ad-download.hismarttv.com,REJECT
 DOMAIN,ad-files.4pyun.com,REJECT
 DOMAIN,ad-scope.com,REJECT
 DOMAIN,ad-scope.com.cn,REJECT
@@ -287,6 +289,7 @@ DOMAIN,biz.weibo.com,REJECT
 DOMAIN,bj-td-menta-01-callback.advlion.com,REJECT
 DOMAIN,bj.ad.track.66mobi.com,REJECT
 DOMAIN,books-analytics-events.apple.com,REJECT
+DOMAIN,boost-cmp.hismarttv.com,REJECT
 DOMAIN,bootpreload.uve.weibo.com,REJECT
 DOMAIN,brandadsstatic.vivo.com.cn,REJECT
 DOMAIN,browser.events.data.msn.cn,REJECT
@@ -392,6 +395,7 @@ DOMAIN,frontend-perf-service.e.kuaishou.com,REJECT
 DOMAIN,fxgate.baidu.com,REJECT
 DOMAIN,g-adnet.hiaiabc.com,REJECT
 DOMAIN,g-staic.ganjingworld.com,REJECT
+DOMAIN,g.cn.miaozhen.com,REJECT
 DOMAIN,g.dtv.cn.miaozhen.com,REJECT
 DOMAIN,g.fancyapi.com,REJECT
 DOMAIN,g2.ganjing.world,REJECT
@@ -467,6 +471,7 @@ DOMAIN,img-c.heytapimage.com,REJECT
 DOMAIN,img-x.jd.com,REJECT
 DOMAIN,img.adnyg.com.w.kunlungr.com,REJECT
 DOMAIN,img2.360buyimg.com,REJECT
+DOMAIN,imp-cmp.hismarttv.com,REJECT
 DOMAIN,impression-asia.chinaliftoff.io,REJECT
 DOMAIN,impression-asia.liftoff.io,REJECT
 DOMAIN,impression.appsflyer.com,REJECT
@@ -513,6 +518,7 @@ DOMAIN,lives.l.aiseet.atianqi.com,REJECT
 DOMAIN,lives.l.ott.video.qq.com,REJECT
 DOMAIN,livewebbs2pcdn.msstatic.com,REJECT
 DOMAIN,lm10111.jtrincc.cn,REJECT
+DOMAIN,loading-cmp.hismarttv.com,REJECT
 DOMAIN,log-api-mn.huxiu.com,REJECT
 DOMAIN,log-api.huxiu.com,REJECT
 DOMAIN,log-api.pangolin-sdk-toutiao-b.com,REJECT
@@ -602,6 +608,7 @@ DOMAIN,ms.applvn.com,REJECT
 DOMAIN,ms4.applovin.com,REJECT
 DOMAIN,ms4.applvn.com,REJECT
 DOMAIN,msdk.voiceads.cn,REJECT
+DOMAIN,msg-cmp.hismarttv.com,REJECT
 DOMAIN,mssdk.volces.com,REJECT
 DOMAIN,mssdk.zijieapi.com,REJECT
 DOMAIN,mtj.baidu.com,REJECT
@@ -651,6 +658,7 @@ DOMAIN,p66-ad.adkwai.com,REJECT
 DOMAIN,pagead2.googleadservices.com,REJECT
 DOMAIN,pagead2.googlesyndication.com,REJECT
 DOMAIN,pangolin-sdk-toutiao-b.com,REJECT
+DOMAIN,paster-cmp.hismarttv.com,REJECT
 DOMAIN,pay.sboot.cn,REJECT
 DOMAIN,pcdn.xmcdn.com,REJECT
 DOMAIN,pcdn.yximgs.com,REJECT
@@ -680,6 +688,7 @@ DOMAIN,qmlog.baertt.com,REJECT
 DOMAIN,qn-cdnfile1pcdn.msstatic.com,REJECT
 DOMAIN,qqdata.ab.qq.com,REJECT
 DOMAIN,qzs.gdtimg.com,REJECT
+DOMAIN,recmd-cmp.hismarttv.com,REJECT
 DOMAIN,recommend-drcn.hms.dbankcloud.cn,REJECT
 DOMAIN,report.dxunion.cn,REJECT
 DOMAIN,report.tencentmusic.com,REJECT
@@ -690,6 +699,7 @@ DOMAIN,res1.hubcloud.com.cn,REJECT
 DOMAIN,res2.hubcloud.com.cn,REJECT
 DOMAIN,res3.hubcloud.com.cn,REJECT
 DOMAIN,resolve.umeng.com,REJECT
+DOMAIN,resource-cmp.hismarttv.com,REJECT
 DOMAIN,review.gdtimg.com,REJECT
 DOMAIN,rlog.popin.cc,REJECT
 DOMAIN,rms-drcn.platform.dbankcloud.cn,REJECT
@@ -884,6 +894,7 @@ DOMAIN,v1-ad.video.yximgs.com,REJECT
 DOMAIN,v2-ad.video.yximgs.com,REJECT
 DOMAIN,v2-api-channel-launcher.hismarttv.com,REJECT
 DOMAIN,v2.gdt.qq.com,REJECT
+DOMAIN,v2.reachmax.cn,REJECT
 DOMAIN,v2mi.gdt.qq.com,REJECT
 DOMAIN,v3-ad.video.yximgs.com,REJECT
 DOMAIN,v3.gdt.qq.com,REJECT
@@ -26797,7 +26808,6 @@ HOST-SUFFIX,ahunui.cn,REJECTLite
 HOST-SUFFIX,ahw3.com,REJECTLite
 HOST-SUFFIX,ahyau.com,REJECTLite
 HOST-SUFFIX,ahyuns.com,REJECTLite
-HOST-SUFFIX,ai-sg.wps.com,REJECT
 HOST-SUFFIX,ai.bioon.com,REJECTLite
 HOST-SUFFIX,ai.inmdata.io,REJECTLite
 HOST-SUFFIX,ai.iol.io,REJECTLite
@@ -27026,7 +27036,6 @@ HOST-SUFFIX,andmejs.com,REJECTLite
 HOST-SUFFIX,andmlbf.tj.ijinshan.com,REJECTLite
 HOST-SUFFIX,android-lrcresource.wps.cn,REJECTLite
 HOST-SUFFIX,androidlog.shouji.baofeng.com,REJECTLite
-HOST-SUFFIX,androidweb.wps.com,REJECT
 HOST-SUFFIX,ane.yahoo.co.jp,REJECTLite
 HOST-SUFFIX,anfeng.com,REJECTLite
 HOST-SUFFIX,angsrvr.com,REJECTLite
@@ -35476,8 +35485,6 @@ HOST-SUFFIX,sfanf.com,REJECTLite
 HOST-SUFFIX,sfloushi.com,REJECTLite
 HOST-SUFFIX,sfxl.com.cn,REJECTLite
 HOST-SUFFIX,sfz023.com,REJECTLite
-HOST-SUFFIX,sg-account.wps.com,REJECT
-HOST-SUFFIX,sg-drive.wps.com,REJECT
 HOST-SUFFIX,sg.a.stat.mi.com,REJECTLite
 HOST-SUFFIX,sg.keytui.com,REJECTLite
 HOST-SUFFIX,sg2rgnza7k9t.com,REJECTLite

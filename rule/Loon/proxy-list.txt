@@ -36,6 +36,7 @@
 .123-hp.com
 .123av.com
 .123av.me
+.123av.org
 .123bin.cc
 .123dapp.com
 .123dappipad.com
@@ -175,6 +176,7 @@
 .1password.co
 .1password.com
 .1password.community
+.1password.dev
 .1password.eu
 .1password.io
 .1passwordservices.com
@@ -221,6 +223,7 @@
 .22112211.xyz
 .233abc.com
 .2371tom.com
+.24.place
 .24h.tv
 .24hbook.com
 .24hjav.com
@@ -1776,6 +1779,7 @@
 .anonymouse.org
 .ansarbank.com
 .ansin.erodayo.com
+.ant.dev
 .antarvasnaclips.com
 .antarvasnax.com
 .antenna.co.kr
@@ -1783,10 +1787,12 @@
 .anthemthegame.com
 .anthonycalzadilla.com
 .anthropic.com
+.anthropic.team
 .antiphishing.nl
 .antiphishing.ru
 .antiwave.net
 .antpool.com
+.antspace.dev
 .anudetube.com
 .anuneko.com
 .anxiangxing.com
@@ -2368,7 +2374,6 @@
 .asmr.gay
 .asmrbuluo.com
 .asn-online.org
-.asobostudio.com
 .asp-cc.com
 .asp.net
 .aspbjournals.org
@@ -2686,8 +2691,10 @@
 .avinin.com
 .avira.com
 .avistaz.to
+.avito.com
 .avito.ru
 .avito.st
+.avito.tech
 .avizoon.site
 .avizoone.com
 .avjb.com
@@ -3354,8 +3361,15 @@
 .beforeigners.com
 .befuck.com
 .befuck.net
+.beget.app
+.beget.cloud
 .beget.com
+.beget.de
+.beget.hosting
+.beget.pro
 .beget.ru
+.beget.tech
+.begetcdn.cloud
 .begin-trade.com
 .behance.net
 .behindthescreenz.com
@@ -3388,6 +3402,7 @@
 .berlinerbericht.de
 .berlintwitterwall.com
 .beru.ru
+.beserver.ru
 .best-sex-games.com
 .best2pay.net
 .best4bim.com
@@ -3498,6 +3513,7 @@
 .bffshd.com
 .bfnn.org
 .bfsh.hk
+.bget.ru
 .bgicdn.com
 .bgm.tv
 .bgme.me
@@ -3743,6 +3759,8 @@
 .blizzardgearstore.com
 .blockcast.it
 .blockchain.com
+.blockchair.com
+.blockchair.net
 .blockcn.com
 .blockedbyhk.com
 .blockfrost.io
@@ -5159,6 +5177,10 @@
 .cdp1998.org
 .cdp2006.org
 .cdpeu.org
+.cdpred.services
+.cdprojekt.com
+.cdprojekt.red
+.cdprojektred.com
 .cdpuk.co.uk
 .cdpweb.org
 .cdpwu.org
@@ -5249,6 +5271,7 @@
 .chat.com
 .chat.lmsys.org
 .chatango.com
+.chatbotclaude.com
 .chatgpt.com
 .chatgpt.livekit.cloud
 .chatgpt.site
@@ -5569,10 +5592,16 @@
 .classymomsex.com
 .clau.de
 .claude.ai
+.claude.app
 .claude.com
 .claude.dev
+.claude.new
+.claude.site
+.claudeacademy.com
 .claudemcpclient.com
 .claudemcpcontent.com
+.claudepages.dev
+.claudestudio.com
 .claudeusercontent.com
 .clawhub.ai
 .clck.ru
@@ -5977,6 +6006,7 @@
 .cqcorea.com
 .crabporn.com
 .crackle.com
+.craftifyx.com
 .craigslist.org
 .crankplayer.com
 .crashbandicoot.com
@@ -6050,6 +6080,7 @@
 .cruxpool.com
 .crypto.com
 .cryptocompare.com
+.cryptoid.info
 .cryptomus.com
 .crypton.co.jp
 .crysis.jp
@@ -6165,6 +6196,7 @@
 .cybercrimecon.com
 .cyberghostvpn.com
 .cybermondaybeats4sale.com
+.cyberpunk.net
 .cybersport.ru
 .cybertrust.co.jp
 .cybertrust.ne.jp
@@ -6397,6 +6429,7 @@
 .delcamtv.com
 .delcamuniversity.com
 .delcamusa.com
+.delets.cash
 .delets.online
 .delicious.com.au
 .delivery-club.ru
@@ -8547,6 +8580,7 @@
 .fanbox.cc
 .fandango.com
 .fandom.com
+.fanfiction.net
 .fanfictionero.com
 .fanfox.net
 .fangeqiang.com
@@ -8965,7 +8999,6 @@
 .flickr
 .flickr.com
 .flickr.net
-.flightsimulator.com
 .flipboard.com
 .flipfap.com
 .flipkart.com
@@ -8995,6 +9028,17 @@
 .fluidpreview.com
 .flutter.dev
 .flutterapp.com
+.fluxer.app
+.fluxer.com
+.fluxer.dev
+.fluxer.gg
+.fluxer.gift
+.fluxer.media
+.fluxer.tools
+.fluxerapp.com
+.fluxerstatic.com
+.fluxerstatus.com
+.fluxerusercontent.com
 .fly.dev
 .fly.io
 .flyflv.com
@@ -9496,6 +9540,7 @@
 .fundraisingwithfacebook.com
 .fundsupermart.com
 .funimation.com
+.funko.com
 .funkyimg.com
 .funnyfacebook.org
 .funnyordie.com
@@ -9591,6 +9636,7 @@
 .g0v.social
 .g1.com.br
 .g6hentai.com
+.ga.jspm.io
 .gab.com
 .gabocorp.com
 .gacebook.com
@@ -9613,6 +9659,7 @@
 .game-repack.site
 .game735.com
 .gameapps.hk
+.gamebanana.com
 .gamebase.com.tw
 .gamebeforethegame.com
 .gamebiz.jp
@@ -9864,6 +9911,7 @@
 .getpocket.com
 .getporn.tv
 .getprintersupports.com
+.getsafety.com
 .getscorecash.com
 .getsentry.com
 .getsession.org
@@ -10034,6 +10082,8 @@
 .glass8.eu
 .gle
 .gleline.com
+.glitchprod.com
+.glitchproductions.store
 .glitchwave.com
 .global-sci.org
 .globaledu.org
@@ -13647,6 +13697,7 @@
 .kimchi.tv
 .kimi.ai
 .kimogirl.cc
+.kimootoko.net
 .kimosex.com
 .kindgirls.com
 .kindindianporn.com
@@ -13827,6 +13878,7 @@
 .kumo.com
 .kun66.xyz
 .kundun1069.com
+.kurs.expert
 .kurtmunger.com
 .kusugurizanmai.com
 .kutjeporno.com
@@ -14484,6 +14536,7 @@
 .magestic.com
 .magicalmirai.com
 .magicmovies.com
+.magnific.com
 .mahajantech.com
 .mahjongsoul.com
 .maidonanews.jp
@@ -14516,6 +14569,7 @@
 .makemymood.com
 .makerepeater.jp
 .makesenseofdata.com
+.makeship.com
 .makeshop.jp
 .makingstartshere.com
 .maktoob.com
@@ -15487,6 +15541,7 @@
 .miniwindsor.com
 .miniworkshop.com
 .miniyaletown.ca
+.minkch.com
 .minnano-av.com
 .minne.com
 .minneapolisbmw.com
@@ -15955,6 +16010,7 @@
 .mt0011.site
 .mtao.fun
 .mthruf.com
+.mts-link.ru
 .mts-ws.net
 .mts.ru
 .mtsbank.ru
@@ -16877,6 +16933,7 @@
 .nixpkgs.org
 .niziero.info
 .njactb.org
+.njav.com
 .njav.tv
 .njavtv.com
 .njpw.co.jp
@@ -17631,6 +17688,7 @@
 .ow.ly
 .owl.li
 .owltail.com
+.ownaj.com
 .owxd.xyz
 .oxfordaasc.com
 .oxfordartonline.com
@@ -18322,6 +18380,7 @@
 .playfabapi.com
 .playfamily.ru
 .playforceone.com
+.playgwent.com
 .playhearthstone.com
 .playmation.com
 .playmeow.com
@@ -18371,6 +18430,7 @@
 .pmem.org
 .pmem.us
 .pnas.org
+.po-kaki-to.com
 .po2b.com
 .pobeda.page
 .pobl-content.com
@@ -18803,6 +18863,7 @@
 .postimages.org
 .postimg.cc
 .postini.com
+.postman.com
 .posts.careerengine.us
 .posty.kr
 .postyourgirls.ws
@@ -19076,6 +19137,7 @@
 .pussyspace.net
 .putinho.net
 .putty.org
+.pv-cdn.net
 .pvp.net
 .pvp.tv
 .pvt.sexy
@@ -19101,6 +19163,7 @@
 .python.com.tw
 .python.org
 .pythonhosted.org
+.pyup.io
 .pzforever.skin
 .pzforever01.homes
 .pzhanfor.today
@@ -19250,6 +19313,7 @@
 .r18lu-avi.shop
 .r18lu.com
 .r2.dev
+.r2modman.com
 .r34porn.net
 .rabbitcounter.com
 .rabbitscams.com
@@ -19946,6 +20010,7 @@
 .safeliner.tech
 .safepal.com
 .safervpn.com
+.safetycli.com
 .saffrontech.com
 .sagabank.co.jp
 .sage-observability.tech
@@ -21267,6 +21332,7 @@
 .springwood.me
 .sprinklesapp.com
 .sproutcore.com
+.sprut.io
 .sptvbroadcast.com
 .sputnikglobe.com
 .sputnikimages.com
@@ -21490,6 +21556,7 @@
 .steaminventoryhelper.com
 .steamladder.com
 .steamofporn.com
+.steamos.cloud
 .steampowered.com
 .steamserver.net
 .steamstatic.com
@@ -22126,6 +22193,7 @@
 .tgirlpostop.com
 .tgp6.com
 .tgstat.com
+.tgtime.store
 .tgtube.com
 .tgutube.com
 .thai-xxx.com
@@ -22297,6 +22365,7 @@
 .theweek.in
 .thewgo.org
 .thewirechina.com
+.thewitcher.com
 .thewonderful101.com
 .theync.com
 .theyxxx.com
@@ -22362,6 +22431,8 @@
 .thunderbird.net
 .thunderbolttechnology.net
 .thundermail.com
+.thunderstore.io
+.thunderstore.org
 .thywords.com
 .thz7.net
 .thzu.cc
@@ -22530,6 +22601,7 @@
 .tmei-taoyuan.com
 .tmi.me
 .tmiaf.ru
+.tmimgcdn.com
 .tmpp.org
 .tmsnrt.rs
 .tnaflix.com
@@ -24904,6 +24976,7 @@
 .worldoftanks.eu
 .worldofwarcraft.com
 .worldofwarplanes.com
+.worldofwarships.asia
 .worldofwarships.com
 .worldpornvideos.com
 .worldscientific.com
@@ -25251,6 +25324,7 @@
 .xn--90ab.com
 .xn--90ab2c.xn--p1ai
 .xn--90absjljw3g.xn--p1ai
+.xn--90aefb9d.xn--p1ai
 .xn--90aifd0az.shop
 .xn--90aifd0azb.xn--p1acf
 .xn--90wwvt03e.com
@@ -25270,15 +25344,15 @@
 .xn--d4ty0ojsqzfd.com
 .xn--e1adjldbbpv.xn--90ais
 .xn--e1aigb.xn--p1ai
-.xn--fiqs8s1bxp3anr7a.hk
-.xn--fiqs8s1bxp3anr7a.xn--j6w193g
-.xn--fiqs8s1byzqyvl.hk
-.xn--fiqs8s1byzqyvl.xn--j6w193g
+.xn--fiq80y.hk
+.xn--fiq80y.xn--j6w193g
+.xn--fiq80y3xbiwr.hk
+.xn--fiq80y3xbiwr.xn--j6w193g
+.xn--fiq80y3xbiwrs0kiu9d.hk
+.xn--fiq80y3xbiwrs0kiu9d.xn--j6w193g
 .xn--fiqs8sxootzz.xn--hxt814e
 .xn--flw351e
 .xn--flw351e.com
-.xn--gdt08a.hk
-.xn--gdt08a.xn--j6w193g
 .xn--ggle-55da.com
 .xn--gmq348bujlxrb.com
 .xn--gmq92kd2rm1kx34a.com
@@ -25298,8 +25372,6 @@
 .xn--kput3imi374g.xn--hxt814e
 .xn--mts47c3w9b1qr.net
 .xn--mtswd61ejxq.com
-.xn--mxtq18a.hk
-.xn--mxtq18a.xn--j6w193g
 .xn--ngstr-lra8j.com
 .xn--noss43i.com
 .xn--oiq.cc
@@ -25307,14 +25379,10 @@
 .xn--pearsonenespaol-brb.com
 .xn--pssu7ci2j23mp9ny48b.hk
 .xn--pssu7ci2j23mp9ny48b.xn--j6w193g
-.xn--pssu7cv61af1tcs59bnvd.hk
-.xn--pssu7cv61af1tcs59bnvd.xn--j6w193g
+.xn--pssu7ci3q5oge0ai91q.xn--j6w193g
 .xn--pssu7cv61af44b.hk
 .xn--pssu7cv61af44b.xn--j6w193g
-.xn--pssu7cv61ahw8aq79bztd.hk
-.xn--pssu7cv61ahw8aq79bztd.xn--j6w193g
-.xn--pssu7cv61ahwcb1p2yk.hk
-.xn--pssu7cv61ahwcb1p2yk.xn--j6w193g
+.xn--pssu7cz8nr8ibkx1e8a.xn--j6w193g
 .xn--q41am8x.com
 .xn--qcka1pmc
 .xn--qoq462m.com
@@ -25330,11 +25398,7 @@
 .xn--uis44a.xn--j6w193g
 .xn--urs05q.jp
 .xn--vuqv2cf7wzyig79c.com
-.xn--wcv22d.hk
-.xn--wcv22d.xn--j6w193g
 .xn--wcvs22d.xn--j6w193g
-.xn--wcvs22d1m.hk
-.xn--wcvs22d1m.xn--j6w193g
 .xn--x-qeu1ji09tzlg.biz
 .xn--x-qeu1ji09tzlg.net
 .xn--xsq421m.com
@@ -26052,6 +26116,7 @@
 .yourxxxvideos.pro
 .yousendit.com
 .youskbe.com
+.youtooz.com
 .youtrack.cloud
 .youtrannytube.com
 .youtu.be
@@ -26447,6 +26512,7 @@
 .zorrovpn.com
 .zotero.org
 .zozotown.com
+.zozovideo.com
 .zpagov.net
 .zpath.com
 .zpn.im
@@ -26634,12 +26700,14 @@
 .d2xmjdvx03ij56.cloudfront.net
 .d31dormfno8pk4.cloudfront.net
 .d33wubrfki0l68.cloudfront.net
+.d348twzf7a8p5.cloudfront.net
 .d36nr0u3xmc4mm.cloudfront.net
 .d3aqoihi2n8ty8.cloudfront.net
 .d3c27h4odz752x.cloudfront.net
 .d3lh5kkip965lj.cloudfront.net
 .d3nwj80emtnjeo.cloudfront.net
 .d3r7nsslvs6aaf.cloudfront.net
+.d3stzm2eumvgb4.cloudfront.net
 .d3ucl0eqgl80l5.cloudfront.net
 .d3vd9lfkzbru3h.cloudfront.net
 .d6d4ismr40iw.cloudfront.net
@@ -26658,6 +26726,7 @@
 .deutschewelle.h-cdn.com
 .developer.microsoft.com
 .developers.facebook.com
+.devforum-uploads.s3.dualstack.us-east-2.amazonaws.com
 .dfp6rglgjqszk.cloudfront.net
 .dgeft87wbj63p.cloudfront.net
 .discord-attachments-uploads-prd.storage.googleapis.com
@@ -26668,6 +26737,7 @@
 .dmqdd6hw24ucf.cloudfront.net
 .docker-images-prod.6aa30f8b08e16409b46e0173d6de2f56.r2.cloudflarestorage.com
 .docker-pinata-support.s3.amazonaws.com
+.doy2mn9upadnk.cloudfront.net
 .dqd0jw5gvbchn.cloudfront.net
 .dqrpb9wgowsf5.cloudfront.net
 .ds-linear-abematv.akamaized.net
@@ -26715,9 +26785,9 @@
 .firebaseperusertopics-pa.googleapis.com
 .firebaseremoteconfig.googleapis.com
 .firstsearch.oclc.org
-.flightsimulator.azureedge.net
 .fontshop-prod-responsive-images.s3.amazonaws.com
 .foxnewsplayer-a.akamaihd.net
+.funko.my.site.com
 .gamedownloads-rockstargames-com.akamaized.net
 .gamer-cds.cdn.hinet.net
 .gamer2-cds.cdn.hinet.net
@@ -26763,6 +26833,8 @@
 .imperial.insendi.com
 .incoming-telemetry.thunderbird.net
 .incoming.telemetry.mozilla.org
+.kp-config-smart-tv.akamaized.net
+.kp-configs-smart-tv.s3.eu-central-1.amazonaws.com
 .lastfm-img.freetls.fastly.net
 .lastfm.freetls.fastly.net
 .lazer.ppy.sh
