@@ -1020,7 +1020,7 @@ https?:\/\/zy6kcqa01a\.execute-api\.us-east-2\.amazonaws\.com\/prod\/verifyRecei
 # /*************************************
 # 
 # 项目名称：Revenuecat系列解锁合集
-# 更新日期：2026-10-25
+# 更新日期：2026-11-01
 # 脚本作者：@ddm1023
 # 电报频道：https://t.me/ddm1023
 # 使用声明：⚠️仅供参考，🈲转载与售卖！
@@ -1953,8 +1953,9 @@ http:\/\/cc\.lzjoy\.com url script-response-body https://raw.githubusercontent.c
 # 
 # 项目名称：畅玩空间
 # 下载地址：https://play.wo1wan.com
-# 脚本作者：chxm1023
-# 电报频道：https://t.me/chxm1023
+# 更新日期: 2026-10-29
+# 脚本作者：@ddm1023
+# 电报频道：https://t.me/ddm1023
 # 使用声明：⚠️仅供参考，🈲转载与售卖！
 # 
 # **************************************
