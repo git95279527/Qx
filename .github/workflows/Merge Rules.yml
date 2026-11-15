@@ -57,6 +57,17 @@ jobs:
       run: |
          sed -i -e '/^[[:space:]]*#/d' -e '/^[[:space:]]*$/d' Reject.txt
          sed -i -e '/^[[:space:]]*#/d' -e '/^[[:space:]]*$/d' Direct.txt
+         
+         #加入v2ray-rules-dat数据
+         curl -fsSL -o direct-list.txt https://raw.githubusercontent.com/git95279527/v2ray-rules-dat/release/direct-list.txt
+         sed -i 's/full://g' direct-list.txt
+         sed -i '/regexp:/d' direct-list.txt
+         sed -i 's/^/./' direct-list.txt
+
+         curl -fsSL -o proxy-list.txt https://raw.githubusercontent.com/git95279527/v2ray-rules-dat/release/proxy-list.txt
+         sed -i 's/full://g' proxy-list.txt
+         sed -i '/regexp:/d' proxy-list.txt
+         sed -i 's/^/./' proxy-list.txt
 
     # 修改并整理 QuantumultX 格式
     - name: Process QuantumultX rules
@@ -85,7 +96,7 @@ jobs:
 
         sed -i '/^[!#]/d; /^\s*$/d; s/full://g' AWAvenue-Ads-Rule-Shadowrocket.list
         cat S_Advertising.list | sort -u > S_Reject_RuleSet.list
-        cat S_MyDirect.list S_Apple_Domain.list S_ChinaMaxNoIP_Domain.list | sort -u > S_Direct_Domain.list
+        cat S_MyDirect.list S_Apple_Domain.list S_ChinaMaxNoIP_Domain.list direct-list.txt | sort -u > S_Direct_Domain.list
         cat S_Apple.list S_ChinaMaxNoIP.list | sort -u > S_Direct_RuleSet.list
         cat S_MyReject.list AWAvenue-Ads-Rule-Shadowrocket.list S_Advertising_Domain.list | sort -u > S_Reject_Domain.list
         sed -i '/tiktok/Id' S_Direct_RuleSet.list
@@ -96,15 +107,6 @@ jobs:
       # 修改并整理 Loon 格式
     - name: Process Loon rules
       run: |
-        curl -fsSL -o direct-list.txt https://raw.githubusercontent.com/git95279527/v2ray-rules-dat/release/direct-list.txt
-        sed -i 's/full://g' direct-list.txt
-        sed -i '/regexp:/d' direct-list.txt
-        sed -i 's/^/./' direct-list.txt
-
-        curl -fsSL -o proxy-list.txt https://raw.githubusercontent.com/git95279527/v2ray-rules-dat/release/proxy-list.txt
-        sed -i 's/full://g' proxy-list.txt
-        sed -i '/regexp:/d' proxy-list.txt
-        sed -i 's/^/./' proxy-list.txt
         
         cp -f Reject.txt L_MyReject.list
         cp -f Direct.txt L_MyDirect.list
