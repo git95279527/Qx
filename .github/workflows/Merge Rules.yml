@@ -121,7 +121,10 @@ jobs:
         sed -i '/tiktok/Id' L_Direct_RuleSet.list
         
         mkdir -p ./rule/Loon
-        mv -f proxy-list.txt L_Direct_Domain.list L_Direct_RuleSet.list L_Reject_RuleSet.list L_Reject_Domain.list ./rule/Loon
+        mv -f L_Direct_Domain.list L_Direct_RuleSet.list L_Reject_RuleSet.list L_Reject_Domain.list ./rule/Loon
+
+        mkdir -p ./rule
+        mv -f proxy-list.txt ./rule
         
     - name: Delete remark and blank comment
       run: |
