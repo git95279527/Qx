@@ -3989,7 +3989,6 @@ host, appcloud2.in.zhihu.com, reject
 host, mqtt.zhihu.com, reject
 host, sugar.zhihu.com, reject
 host, crash2.zhihu.com, reject
-host, 118.89.204.198, reject
 IP-CIDR, 118.89.204.198/32, reject
 IP6-CIDR, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, reject
 ^https:\/\/api\.zhihu\.com\/(answers|articles)\/v2\/\d+ url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/zhihu/zhihu.js

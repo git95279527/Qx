@@ -1015,12 +1015,11 @@ https?:\/\/zy6kcqa01a\.execute-api\.us-east-2\.amazonaws\.com\/prod\/verifyRecei
 #[mitm]
 # hostname = api.rawpixlive.com
 
-# [删除] ReLens.js 中包含 buy.itunes.apple.com，已删除
 ## Reheji.js 从第1行到 [rewrite_local] 前一行：
 # /*************************************
 # 
 # 项目名称：Revenuecat系列解锁合集
-# 更新日期：2026-11-13
+# 更新日期：2026-11-23
 # 脚本作者：@ddm1023
 # 电报频道：https://t.me/ddm1023
 # 使用声明：⚠️仅供参考，🈲转载与售卖！
@@ -1303,7 +1302,7 @@ https?:\/\/zy6kcqa01a\.execute-api\.us-east-2\.amazonaws\.com\/prod\/verifyRecei
 # /*************************************
 # 
 # 项目名称：Adapty-合集
-# 更新日期：2026-11-07
+# 更新日期：2026-11-21
 # 脚本作者：@ddm1023
 # 电报频道：https://t.me/ddm1023
 # 使用声明：⚠️仅供参考，🈲转载与售卖！
