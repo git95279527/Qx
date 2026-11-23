@@ -172,6 +172,7 @@ DOMAIN,adx-saas.advlion.com,REJECT
 DOMAIN,adx-strategy-api-cn.statisticslinks.com,REJECT
 DOMAIN,adx.ads.heytapmobi.com,REJECT
 DOMAIN,adx.ads.oppomobile.com,REJECT
+DOMAIN,adx.anythinktech.com,REJECT
 DOMAIN,adx.appsdk.com.cn,REJECT
 DOMAIN,adx.sogaha.cn,REJECT
 DOMAIN,adx.tuia.cn,REJECT
@@ -190,6 +191,7 @@ DOMAIN,alicoccdncnc-xn.inter.71edge.com,REJECT
 DOMAIN,alicoccdnct-xn.inter.71edge.com,REJECT
 DOMAIN,alltbcsp2p.baidu.com,REJECT
 DOMAIN,alog.umeng.com,REJECT
+DOMAIN,alogsus.umeng.com,REJECT
 DOMAIN,alogus.umeng.com,REJECT
 DOMAIN,als.baidu.com,REJECT
 DOMAIN,amdcopen.m.taobao.com,REJECT
@@ -208,6 +210,7 @@ DOMAIN,analytics.tiktok.com,REJECT
 DOMAIN,analytics.woozooo.com,REJECT
 DOMAIN,analyticsengine.s3.amazonaws.com,REJECT
 DOMAIN,analyze.lemurbrowser.com,REJECT
+DOMAIN,android.bugly.qq.com,REJECT
 DOMAIN,andrqd.play.aiseet.atianqi.com,REJECT
 DOMAIN,ap.dongdianqiu.com,REJECT
 DOMAIN,ap.dongqiudi.com,REJECT
@@ -274,6 +277,7 @@ DOMAIN,beizi.biz,REJECT
 DOMAIN,bes-mtj.baidu.com,REJECT
 DOMAIN,bgg.baidu.com,REJECT
 DOMAIN,bianxian.com,REJECT
+DOMAIN,bid.shanghailingye.cn,REJECT
 DOMAIN,biz.weibo.com,REJECT
 DOMAIN,bj-td-menta-01-callback.advlion.com,REJECT
 DOMAIN,bj.ad.track.66mobi.com,REJECT
@@ -320,7 +324,10 @@ DOMAIN,click4.chinaliftoff.io,REJECT
 DOMAIN,client-upload.cn-shanghai.log.aliyuncs.com,REJECT
 DOMAIN,clog.miguvideo.com,REJECT
 DOMAIN,cloooud.com,REJECT
+DOMAIN,cn-api-sec.anythinktech.com,REJECT
 DOMAIN,cn-api.anythinktech.com,REJECT
+DOMAIN,cn-da.anythinktech.com,REJECT
+DOMAIN,cn-tk.anythinktech.com,REJECT
 DOMAIN,cnlogs.umeng.com,REJECT
 DOMAIN,cnlogs.umengcloud.com,REJECT
 DOMAIN,cnzz.com,REJECT
@@ -338,6 +345,7 @@ DOMAIN,crashlyticsreports-pa.googleapis.com,REJECT
 DOMAIN,d.applovin.com,REJECT
 DOMAIN,d.applvn.com,REJECT
 DOMAIN,da.anythinktech.com,REJECT
+DOMAIN,da.statisticslinks.com,REJECT
 DOMAIN,data-sdk-uuid-log.d.meituan.net,REJECT
 DOMAIN,data.ads.oppomobile.com,REJECT
 DOMAIN,data.chsmarttv.com,REJECT
@@ -369,7 +377,10 @@ DOMAIN,edge.ads.twitch.tv,REJECT
 DOMAIN,ef-dongfeng.tanx.com,REJECT
 DOMAIN,engine.dcad01.com,REJECT
 DOMAIN,entry.baidu.com,REJECT
+DOMAIN,errlog.umeng.com,REJECT
+DOMAIN,errlogos.umeng.com,REJECT
 DOMAIN,errnewlog.umeng.com,REJECT
+DOMAIN,errnewlogos.umeng.com,REJECT
 DOMAIN,et-eus.w.inmobi.com,REJECT
 DOMAIN,event.tradplusad.com,REJECT
 DOMAIN,events-drcn.op.dbankcloud.cn,REJECT
@@ -769,6 +780,7 @@ DOMAIN,smetrics.samsung.com,REJECT
 DOMAIN,sms.ads.oppomobile.com,REJECT
 DOMAIN,sngmta.qq.com,REJECT
 DOMAIN,snowflake.qq.com,REJECT
+DOMAIN,ssapi.anythinktech.com,REJECT
 DOMAIN,ssp.cloooud.com,REJECT
 DOMAIN,staging-notify.sec.miui.com,REJECT
 DOMAIN,stat.dongqiudi.com,REJECT
@@ -814,6 +826,7 @@ DOMAIN,test.e.ad.xiaomi.com,REJECT
 DOMAIN,tj.b.qq.com,REJECT
 DOMAIN,tj.video.qq.com,REJECT
 DOMAIN,tk.anythinktech.com,REJECT
+DOMAIN,tk.statisticslinks.com,REJECT
 DOMAIN,tmead.y.qq.com,REJECT
 DOMAIN,tmeadcomm.y.qq.com,REJECT
 DOMAIN,tmfmazu-wangka.m.qq.com,REJECT
@@ -831,6 +844,7 @@ DOMAIN,tnc3-alisc1.toutiaoapi.com,REJECT
 DOMAIN,tnc3-bjlgy.bytedance.com,REJECT
 DOMAIN,tnc3-bjlgy.snssdk.com,REJECT
 DOMAIN,tnc3-bjlgy.toutiaoapi.com,REJECT
+DOMAIN,tobapplog.ctobsnssdk.com,REJECT
 DOMAIN,toblog.ctobsnssdk.com,REJECT
 DOMAIN,tpa-hcdn.iqiyi.com,REJECT
 DOMAIN,tpc.googlesyndication-cn.com,REJECT

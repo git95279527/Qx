@@ -172,6 +172,7 @@ DOMAIN,adx-saas.advlion.com,REJECT,extended-matching,pre-matching
 DOMAIN,adx-strategy-api-cn.statisticslinks.com,REJECT,extended-matching,pre-matching
 DOMAIN,adx.ads.heytapmobi.com,REJECT,extended-matching,pre-matching
 DOMAIN,adx.ads.oppomobile.com,REJECT,extended-matching,pre-matching
+DOMAIN,adx.anythinktech.com,REJECT,extended-matching,pre-matching
 DOMAIN,adx.appsdk.com.cn,REJECT,extended-matching,pre-matching
 DOMAIN,adx.sogaha.cn,REJECT,extended-matching,pre-matching
 DOMAIN,adx.tuia.cn,REJECT,extended-matching,pre-matching
@@ -190,6 +191,7 @@ DOMAIN,alicoccdncnc-xn.inter.71edge.com,REJECT,extended-matching,pre-matching
 DOMAIN,alicoccdnct-xn.inter.71edge.com,REJECT,extended-matching,pre-matching
 DOMAIN,alltbcsp2p.baidu.com,REJECT,extended-matching,pre-matching
 DOMAIN,alog.umeng.com,REJECT,extended-matching,pre-matching
+DOMAIN,alogsus.umeng.com,REJECT,extended-matching,pre-matching
 DOMAIN,alogus.umeng.com,REJECT,extended-matching,pre-matching
 DOMAIN,als.baidu.com,REJECT,extended-matching,pre-matching
 DOMAIN,amdcopen.m.taobao.com,REJECT,extended-matching,pre-matching
@@ -208,6 +210,7 @@ DOMAIN,analytics.tiktok.com,REJECT,extended-matching,pre-matching
 DOMAIN,analytics.woozooo.com,REJECT,extended-matching,pre-matching
 DOMAIN,analyticsengine.s3.amazonaws.com,REJECT,extended-matching,pre-matching
 DOMAIN,analyze.lemurbrowser.com,REJECT,extended-matching,pre-matching
+DOMAIN,android.bugly.qq.com,REJECT,extended-matching,pre-matching
 DOMAIN,andrqd.play.aiseet.atianqi.com,REJECT,extended-matching,pre-matching
 DOMAIN,ap.dongdianqiu.com,REJECT,extended-matching,pre-matching
 DOMAIN,ap.dongqiudi.com,REJECT,extended-matching,pre-matching
@@ -274,6 +277,7 @@ DOMAIN,beizi.biz,REJECT,extended-matching,pre-matching
 DOMAIN,bes-mtj.baidu.com,REJECT,extended-matching,pre-matching
 DOMAIN,bgg.baidu.com,REJECT,extended-matching,pre-matching
 DOMAIN,bianxian.com,REJECT,extended-matching,pre-matching
+DOMAIN,bid.shanghailingye.cn,REJECT,extended-matching,pre-matching
 DOMAIN,biz.weibo.com,REJECT,extended-matching,pre-matching
 DOMAIN,bj-td-menta-01-callback.advlion.com,REJECT,extended-matching,pre-matching
 DOMAIN,bj.ad.track.66mobi.com,REJECT,extended-matching,pre-matching
@@ -320,7 +324,10 @@ DOMAIN,click4.chinaliftoff.io,REJECT,extended-matching,pre-matching
 DOMAIN,client-upload.cn-shanghai.log.aliyuncs.com,REJECT,extended-matching,pre-matching
 DOMAIN,clog.miguvideo.com,REJECT,extended-matching,pre-matching
 DOMAIN,cloooud.com,REJECT,extended-matching,pre-matching
+DOMAIN,cn-api-sec.anythinktech.com,REJECT,extended-matching,pre-matching
 DOMAIN,cn-api.anythinktech.com,REJECT,extended-matching,pre-matching
+DOMAIN,cn-da.anythinktech.com,REJECT,extended-matching,pre-matching
+DOMAIN,cn-tk.anythinktech.com,REJECT,extended-matching,pre-matching
 DOMAIN,cnlogs.umeng.com,REJECT,extended-matching,pre-matching
 DOMAIN,cnlogs.umengcloud.com,REJECT,extended-matching,pre-matching
 DOMAIN,cnzz.com,REJECT,extended-matching,pre-matching
@@ -338,6 +345,7 @@ DOMAIN,crashlyticsreports-pa.googleapis.com,REJECT,extended-matching,pre-matchin
 DOMAIN,d.applovin.com,REJECT,extended-matching,pre-matching
 DOMAIN,d.applvn.com,REJECT,extended-matching,pre-matching
 DOMAIN,da.anythinktech.com,REJECT,extended-matching,pre-matching
+DOMAIN,da.statisticslinks.com,REJECT,extended-matching,pre-matching
 DOMAIN,data-sdk-uuid-log.d.meituan.net,REJECT,extended-matching,pre-matching
 DOMAIN,data.ads.oppomobile.com,REJECT,extended-matching,pre-matching
 DOMAIN,data.chsmarttv.com,REJECT,extended-matching,pre-matching
@@ -369,7 +377,10 @@ DOMAIN,edge.ads.twitch.tv,REJECT,extended-matching,pre-matching
 DOMAIN,ef-dongfeng.tanx.com,REJECT,extended-matching,pre-matching
 DOMAIN,engine.dcad01.com,REJECT,extended-matching,pre-matching
 DOMAIN,entry.baidu.com,REJECT,extended-matching,pre-matching
+DOMAIN,errlog.umeng.com,REJECT,extended-matching,pre-matching
+DOMAIN,errlogos.umeng.com,REJECT,extended-matching,pre-matching
 DOMAIN,errnewlog.umeng.com,REJECT,extended-matching,pre-matching
+DOMAIN,errnewlogos.umeng.com,REJECT,extended-matching,pre-matching
 DOMAIN,et-eus.w.inmobi.com,REJECT,extended-matching,pre-matching
 DOMAIN,event.tradplusad.com,REJECT,extended-matching,pre-matching
 DOMAIN,events-drcn.op.dbankcloud.cn,REJECT,extended-matching,pre-matching
@@ -769,6 +780,7 @@ DOMAIN,smetrics.samsung.com,REJECT,extended-matching,pre-matching
 DOMAIN,sms.ads.oppomobile.com,REJECT,extended-matching,pre-matching
 DOMAIN,sngmta.qq.com,REJECT,extended-matching,pre-matching
 DOMAIN,snowflake.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN,ssapi.anythinktech.com,REJECT,extended-matching,pre-matching
 DOMAIN,ssp.cloooud.com,REJECT,extended-matching,pre-matching
 DOMAIN,staging-notify.sec.miui.com,REJECT,extended-matching,pre-matching
 DOMAIN,stat.dongqiudi.com,REJECT,extended-matching,pre-matching
@@ -814,6 +826,7 @@ DOMAIN,test.e.ad.xiaomi.com,REJECT,extended-matching,pre-matching
 DOMAIN,tj.b.qq.com,REJECT,extended-matching,pre-matching
 DOMAIN,tj.video.qq.com,REJECT,extended-matching,pre-matching
 DOMAIN,tk.anythinktech.com,REJECT,extended-matching,pre-matching
+DOMAIN,tk.statisticslinks.com,REJECT,extended-matching,pre-matching
 DOMAIN,tmead.y.qq.com,REJECT,extended-matching,pre-matching
 DOMAIN,tmeadcomm.y.qq.com,REJECT,extended-matching,pre-matching
 DOMAIN,tmfmazu-wangka.m.qq.com,REJECT,extended-matching,pre-matching
@@ -831,6 +844,7 @@ DOMAIN,tnc3-alisc1.toutiaoapi.com,REJECT,extended-matching,pre-matching
 DOMAIN,tnc3-bjlgy.bytedance.com,REJECT,extended-matching,pre-matching
 DOMAIN,tnc3-bjlgy.snssdk.com,REJECT,extended-matching,pre-matching
 DOMAIN,tnc3-bjlgy.toutiaoapi.com,REJECT,extended-matching,pre-matching
+DOMAIN,tobapplog.ctobsnssdk.com,REJECT,extended-matching,pre-matching
 DOMAIN,toblog.ctobsnssdk.com,REJECT,extended-matching,pre-matching
 DOMAIN,tpa-hcdn.iqiyi.com,REJECT,extended-matching,pre-matching
 DOMAIN,tpc.googlesyndication-cn.com,REJECT,extended-matching,pre-matching
@@ -1289,7 +1303,7 @@ IP-CIDR,109.123.233.251/32,no-resolve
 IP-CIDR,111.11.208.2/32,no-resolve
 IP-CIDR,111.175.220.160/29,no-resolve
 IP-CIDR,111.175.221.58/32,no-resolve
-IP-CIDR,111.20.26.186/32,REJECT,pre-matching
+IP-CIDR,111.20.26.186/32,REJECT,no-resolve,pre-matching
 IP-CIDR,111.206.22.0/24,no-resolve
 IP-CIDR,111.30.135.167/32,no-resolve
 IP-CIDR,111.30.159.168/32,no-resolve
@@ -1300,7 +1314,7 @@ IP-CIDR,112.124.115.215/32,no-resolve
 IP-CIDR,112.132.230.179/32,no-resolve
 IP-CIDR,112.29.211.120/32,no-resolve
 IP-CIDR,112.74.95.46/32,no-resolve
-IP-CIDR,112.84.130.73/32,REJECT,pre-matching
+IP-CIDR,112.84.130.73/32,REJECT,no-resolve,pre-matching
 IP-CIDR,113.12.83.4/31,no-resolve
 IP-CIDR,113.207.57.24/32,no-resolve
 IP-CIDR,113.57.230.88/32,no-resolve
@@ -1316,8 +1330,8 @@ IP-CIDR,115.236.121.195/32,no-resolve
 IP-CIDR,115.236.121.51/32,no-resolve
 IP-CIDR,115.29.141.121/32,no-resolve
 IP-CIDR,115.29.247.48/32,no-resolve
-IP-CIDR,116.142.251.100/32,REJECT,pre-matching
-IP-CIDR,116.177.251.215/32,REJECT,pre-matching
+IP-CIDR,116.142.251.100/32,REJECT,no-resolve,pre-matching
+IP-CIDR,116.177.251.215/32,REJECT,no-resolve,pre-matching
 IP-CIDR,116.206.22.7/32,no-resolve
 IP-CIDR,116.55.227.242/32,no-resolve
 IP-CIDR,117.121.49.100/32,no-resolve
@@ -1348,7 +1362,7 @@ IP-CIDR,120.26.151.246/32,no-resolve
 IP-CIDR,120.27.34.156/32,no-resolve
 IP-CIDR,120.55.199.139/32,no-resolve
 IP-CIDR,120.76.189.132/32,no-resolve
-IP-CIDR,120.77.173.114/32,REJECT,pre-matching
+IP-CIDR,120.77.173.114/32,REJECT,no-resolve,pre-matching
 IP-CIDR,120.80.57.123/32,no-resolve
 IP-CIDR,121.15.207.243/32,no-resolve
 IP-CIDR,121.199.73.185/32,no-resolve
@@ -1373,7 +1387,7 @@ IP-CIDR,123.129.254.12/30,no-resolve
 IP-CIDR,123.129.254.16/30,no-resolve
 IP-CIDR,123.151.54.50/32,no-resolve
 IP-CIDR,123.56.152.96/32,no-resolve
-IP-CIDR,123.56.23.22/32,REJECT,pre-matching
+IP-CIDR,123.56.23.22/32,REJECT,no-resolve,pre-matching
 IP-CIDR,123.57.162.39/32,no-resolve
 IP-CIDR,123.57.94.184/32,no-resolve
 IP-CIDR,123.59.152.170/32,no-resolve
@@ -1398,9 +1412,9 @@ IP-CIDR,139.159.32.82/32,no-resolve
 IP-CIDR,139.196.239.52/32,no-resolve
 IP-CIDR,139.224.26.92/32,no-resolve
 IP-CIDR,139.224.74.148/32,no-resolve
-IP-CIDR,14.29.101.160/32,REJECT,pre-matching
-IP-CIDR,14.29.101.168/32,REJECT,pre-matching
-IP-CIDR,14.29.101.169/32,REJECT,pre-matching
+IP-CIDR,14.29.101.160/32,REJECT,no-resolve,pre-matching
+IP-CIDR,14.29.101.168/32,REJECT,no-resolve,pre-matching
+IP-CIDR,14.29.101.169/32,REJECT,no-resolve,pre-matching
 IP-CIDR,141.98.82.232/32,no-resolve
 IP-CIDR,142.0.129.74/32,no-resolve
 IP-CIDR,142.91.159.127/32,no-resolve
@@ -1463,7 +1477,7 @@ IP-CIDR,180.76.171.28/32,no-resolve
 IP-CIDR,180.76.172.149/32,no-resolve
 IP-CIDR,180.76.181.213/32,no-resolve
 IP-CIDR,180.96.2.114/32,no-resolve
-IP-CIDR,182.254.116.116/32,REJECT,pre-matching
+IP-CIDR,182.254.116.116/32,REJECT,no-resolve,pre-matching
 IP-CIDR,182.254.116.117/32,no-resolve
 IP-CIDR,182.254.118.119/32,no-resolve
 IP-CIDR,182.92.81.104/32,no-resolve
@@ -1532,7 +1546,7 @@ IP-CIDR,203.195.121.46/32,no-resolve
 IP-CIDR,203.195.121.70/32,no-resolve
 IP-CIDR,203.195.121.72/31,no-resolve
 IP-CIDR,203.195.121.74/32,no-resolve
-IP-CIDR,203.205.137.89/32,REJECT,pre-matching
+IP-CIDR,203.205.137.89/32,REJECT,no-resolve,pre-matching
 IP-CIDR,203.205.239.44/32,no-resolve
 IP-CIDR,203.205.255.16/32,no-resolve
 IP-CIDR,205.209.138.102/32,no-resolve
@@ -1561,7 +1575,7 @@ IP-CIDR,218.30.64.194/32,no-resolve
 IP-CIDR,218.68.250.117/32,no-resolve
 IP-CIDR,218.68.250.118/31,no-resolve
 IP-CIDR,218.68.250.120/31,no-resolve
-IP-CIDR,218.77.192.51/32,REJECT,pre-matching
+IP-CIDR,218.77.192.51/32,REJECT,no-resolve,pre-matching
 IP-CIDR,218.93.127.37/32,no-resolve
 IP-CIDR,218.94.207.205/32,no-resolve
 IP-CIDR,219.143.187.136/32,no-resolve
@@ -1686,7 +1700,7 @@ IP-CIDR,35.232.188.118/32,no-resolve
 IP-CIDR,35.239.57.233/32,no-resolve
 IP-CIDR,37.1.209.213/32,no-resolve
 IP-CIDR,37.1.213.100/32,no-resolve
-IP-CIDR,38.190.225.166/32,REJECT,pre-matching
+IP-CIDR,38.190.225.166/32,REJECT,no-resolve,pre-matching
 IP-CIDR,39.107.15.115/32,no-resolve
 IP-CIDR,39.97.128.148/32,no-resolve
 IP-CIDR,39.97.130.51/32,no-resolve
